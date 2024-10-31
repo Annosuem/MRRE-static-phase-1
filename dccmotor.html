@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>DCC Motor Searching List</title>
+   <meta name="description" content="Events" />
+   <style></style>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+   <script src="https://morgul.github.io/ui-bootstrap4/ui-bootstrap-tpls-3.0.6.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+   <script>
+      angular
+         .module("app", ["ui.bootstrap"])
+         .controller("dccmotorlist", function ($scope, $http) {
+            $http.get("dccmotorlist.json").then(
+               function successCallback(response) {
+                  $scope.codes = response.data;
+                  console.log("DCC : ");
+                  console.log(response.data);
+               },
+               function errorCallback(response) {
+                  console.log("Unable to perform get request");
+               }
+            );
+         })
+         .filter("myfilter", function () {
+            return function (x) {
+               var i,
+                  c,
+                  txt = "";
+               for (i = 0; i < x.length; i++) {
+                  c = x[i];
+
+                  c = c.toUpperCase();
+
+                  txt += c;
+               }
+               return txt;
+            };
+         });
+         
+   </script>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+          <div class="Header_Area">
+              
+              <p><a href="menu.html" class="btn btn-primary my-2">กลับสู่เมนู</a></p>
+                 
+          </div>
+      </div>
+  </header>
+   <p id="demo" class="mt-2"></p>
+   <script>
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d;
+   </script>
+   <div ng-app="app" ng-controller="dccmotorlist">
+      <h3 class="text-center text-white p-2" style="background-color: rgb(221, 62, 236)">
+         ระบบค้นหา DCC Motor Searching List
+      </h3>
+      <div class="row">
+         <div class="col-lg-12">
+            <table class="table table-hover">
+               <thead>
+                  <tr class="text-dark" style="background-color: rgb(15, 237, 167)">
+                     <th scope="col"></th>
+                     <th scope="col">PLANT</th>
+                     <th scope="col">MOTORNUMBER</th>
+                     <th scope="col">POWER_kW</th>
+                     <th scope="col">VOLT_V</th>
+                     <th scope="col">CURRENT_A</th>
+                     <th scope="col">SPEED</th>
+                     <th scope="col">POWERFACTOR</th>
+                     <th scope="col">CONNECTION</th>
+                     <th scope="col">TYPE</th>
+                     <th scope="col">BRANDNAME</th>
+                     <th scope="col">FRAMSIZE</th>
+                     <th scope="col">IM</th>
+                     <th scope="col">INSU_CL</th>
+                     <th scope="col">IP</th>
+                     <th scope="col">BEARINGDE</th>
+                     <th scope="col">BEARINGNDE</th>
+                    
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr style="background-color: rgb(83, 35, 214)">
+                     <th scope="col"></th>
+                     <th scope="col">
+                        <input ng-model="s.PLANT" placeholder="PLANT" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.MOTORNUMBER" placeholder="MOTOR No." class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.POWER_kW" placeholder="Rated Power" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.VOLT_V" placeholder="Voltage(V)" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.CURRENT_A" placeholder="Current(A)" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.SPEED" placeholder="Speed(rpm)" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.POWERFACTOR" placeholder="PF Cos" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.CONNECTION" placeholder="Connection" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.TYPE" placeholder="Brand" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.BRANDNAME" placeholder="Type" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.FRAMSIZE" placeholder="Frame" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.IM" placeholder="IM" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.INSU_CL" placeholder="Insulation class" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.IP" placeholder="IP" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.BEARINGDE" placeholder="Drive" class="form-control input-md" />
+                     </th>
+                     <th scope="col">
+                        <input ng-model="s.BEARINGNDE" placeholder="Non Drive" class="form-control input-md" />
+                     </th>
+                  </tr>
+                  <tr class="font-weight-bold" ng-repeat=" r in  codes.DCC | filter:s | limitTo: 30">
+                     <td>{{ $index+1}}</td>
+                     <td>{{ r.PLANT}}</td>
+                     <td>{{ r.MOTORNUMBER}}</td>
+                     <td class="text-left">{{ r.POWER_kW}}</td>
+                     <td class="text-left">{{ r.VOLT_V}}</td>
+                     <td class="text-left">{{ r.CURRENT_A}}</td>
+                     <td class="text-left">{{ r.SPEED}}</td>
+                     <td class="text-left">{{ r.POWERFACTOR}}</td>
+                     <td class="text-left">{{ r.CONNECTION}}</td>
+                     <td class="text-left">{{ r.TYPE}}</td>
+                     <td class="text-left">{{ r.BRANDNAME}}</td>
+                     <td class="text-left">{{ r.FRAMSIZE}}</td>
+                     <td class="text-left">{{ r.IM}}</td>
+                     <td class="text-left">{{ r.INSU_CL}}</td>
+                     <td class="text-left">{{ r.IP}}</td>
+                    
+                     <td class="text-left">{{ r.BEARINGDE}}</td>
+                     <td class="text-left">{{ r.BEARINGNDE}}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,703 @@
+{
+    "SIMOCODE":[
+     {
+      "EVENT": "Analog module open circuit",
+      "DESCRIPTION": "มีopen circuit เกิดขึ้นที่วงจรวัดค่าanalog",
+      "TROUBLESHOOTING": "ตรวจสอบ เซนเซอร์วัดค่า และวงจรวัดค่า",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": 64
+     },
+     {
+      "EVENT": "Startup parameter block active",
+      "DESCRIPTION": "Startup parameter block จะป้องกันการ\nย้ายค่า SIMOCODE pro parameters ที่\nสามารถเก็บไว้ได้ใน DP master.\nThe block ต้องทำงานเมื่อ\n-SIMOCODE ES หรือ\n-SIMATIC PD ถูกใช้ในการตั้งค่า\nThe block ไม่จำเป็นต้องทำงานเมื่อ\n-SIMOCODE pro C\/S\/V ถูกใช้ใน Step 7 ด้วย SIMOCODE pro Object Manager (OM)\n-SIMOCODE pro C มีการตั้งค่าด้วย GSD\n(หมายเหตุ : เมื่ออุปกรณ์อยู่ในสภาพ\nas-delivered หรือ มีการปรับคืนเป็นค่าโรงงาน , The parameter block จะไม่ทำงาน)",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Antivalence",
+      "DESCRIPTION": "สำหรับ positioner 5 control function :\nchange-over contacts ของ limit switch\nไม่ส่งสัญญาณ Antivalent",
+      "TROUBLESHOOTING": "Limit switch ชำรุด , open circuit limit switch",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Configuration error",
+      "DESCRIPTION": "อุปกรณ์ที่ถูกตั้งค่ามีค่าไม่ตรงกับค่าที่ได้\nตั้งไว้",
+      "TROUBLESHOOTING": "ตรวจสอบว่าอุปกรณ์มีครบ แล้วดูค่าที่\nอยู่ในอุปกรณ์นั้นว่าตรงกับ \"Configuration\"",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 3
+     },
+     {
+      "EVENT": "Execution STOP command",
+      "DESCRIPTION": "Motor feeder ไม่หยุดทำงานเมื่อ\nสั่งให้ STOP",
+      "TROUBLESHOOTING": " -ตัว contractor ยังเชื่อมต่อกันอยู่\n-ระยะเวลา Execution time สั้นเกินไป\n-หก",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 9
+     },
+     {
+      "EVENT": "Execution ON command",
+      "DESCRIPTION": "Motor feeder ไม่ทำงานเมื่อสั่งให้ ON",
+      "TROUBLESHOOTING": " -Main circuit ถูกขัดการทำงานจาก\nfuse หรือ Circuit breaker\n-Motor contractor หรือ contractor controld\nมีการชำรุด\n-ระยะเวลา Execution time สั้นเกินไป",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset หรือ OFF command\/Counter command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 8
+     },
+     {
+      "EVENT": "Trip level Cos PHI<",
+      "DESCRIPTION": "ค่า power factor (cos phi) มีค่าต่ำกว่า\n trip level ซึ่งอาจเกิดจากตัว Motor\nทำงานแบบไม่มีโหลด",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 44
+     },
+     {
+      "EVENT": "Trip level I < undershot",
+      "DESCRIPTION": "ค่ากระแสไฟฟ้าสูงสุดมีค่าต่ำกว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 41
+     },
+     {
+      "EVENT": "Trip level I > overshot",
+      "DESCRIPTION": "ค่ากระแสไฟฟ้าสูงสุดมีค่าสูงว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 40
+     },
+     {
+      "EVENT": "Trip level P < undershot",
+      "DESCRIPTION": "ค่ากำลังใน motor มีค่าต่ำกว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 43
+     },
+     {
+      "EVENT": "Trip level P > overshot",
+      "DESCRIPTION": "ค่ากำลังใน motor มีค่าสูงกว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 42
+     },
+     {
+      "EVENT": "Trip level U < undershot",
+      "DESCRIPTION": "ค่าแรงดันไฟฟ้าใน motor มีค่าต่ำกว่า \ntrip level ซึ่งอาจเกิดได้จาก\n -แรงดันไฟใน network ต่ำเกินไป\n -มีการตัดไฟจาก fuse",
+      "TROUBLESHOOTING": "ตรวจสอบ motor feeder",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 45
+     },
+     {
+      "EVENT": "Trip level U 0\/4 - 20 mA < undershot",
+      "DESCRIPTION": "ค่าที่วัดได้แบบ analog มีค่าต่ำกว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่า",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 47
+     },
+     {
+      "EVENT": "Trip level U 0\/4 - 20 mA > overshot",
+      "DESCRIPTION": "ค่าที่วัดได้แบบ analog มีค่าสูงกว่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่า",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 46
+     },
+     {
+      "EVENT": "Operational Protection Off (OPO)",
+      "DESCRIPTION": "OPO signal เริ่มทำงานเมื่อ motor feeder ที่สั่งให้ switched-on ยัง switched-off อยู่.\nขณะที่ OPO ทำงานอยู่ , feeder ไม่สามารถ\nswitch ON ได้",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped;\nสำหรับ positioners: QE1 or QE2 มีสถานะ ON จนกว่าจะถึง end position ซึ่งจะขึ้นอยู่กับค่าที่ได้ตั้งไว้\n",
+      "ERROR_NO": 19
+     },
+     {
+      "EVENT": "Motor operating hours >",
+      "DESCRIPTION": "motor มีการทำงานเกินเวลาที่ได้กำหนดไว้",
+      "TROUBLESHOOTING": "ใช้แผนการซ่อมบำรุงที่ได้เตรียมไว้\nสำหรับ feeder",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Stalled rotor",
+      "DESCRIPTION": "ค่ากระแสไฟสูงสุดของmotorเกินขีดจำกัด\nของ stalled rotor protection ซึ่งอาจเกิด\nได้จากการที่motorถูก blocked",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 48
+     },
+     {
+      "EVENT": "Stalled positioner",
+      "DESCRIPTION": "ตัว Torque switch ทำงานก่อนที่ \nlimit switch จะสั่งให้ทำ",
+      "TROUBLESHOOTING": " -ทำการ block positioner (ไม่บังคับ)\n-Acknowledge fault ด้วยการปล่อย\n\"OPEN\/CLOSED\" counter command\n-ตรวจสอบการทำงานของ positioner และ limit switches",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Counter command \"OPEN\/CLOSED!\"",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 12
+     },
+     {
+      "EVENT": "DM-F feedback circuit",
+      "DESCRIPTION": "DM-F local\/DM-F PROFlsafe ตรวจเจอ fault\nใน feedback circuit (feedback circuit ต้องเป็น closed เมื่อ enabling circuit เริ่มทำงาน)\nGF (general fault) LED ของ DM-F local\/DM-F PROFlsafe จะมีการกะพริบสีแดง",
+      "TROUBLESHOOTING": " -ตรวจสอบการต่อสายของ feedback circuit\n-ตรวจสอบ contact block ใน feedback circuit",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ปัญหา fault เพื่อให้ feedback circuit closed",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-F safety-related tripping",
+      "DESCRIPTION": "DM-F ทำการตัดไฟ enabling circuit \nเพื่อความปลอดภัย",
+      "TROUBLESHOOTING": "motor จะเริ่มทำงานได้อีกครั้งเมื่อ DM-F\nmodule enabling circuit มีการ closed",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Acknowledge ด้วยการ Reset,ถ้า auto-reset ไม่ทำงาน",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 66
+     },
+     {
+      "EVENT": "DM-F test requirement",
+      "DESCRIPTION": "Enabling circuit ของ DM-F local หรือ DM-F \nPROFlsafe ไม่มีการปิดหรือเปิดในช่วงเวลาที่ได้ตั้งค่าไว้",
+      "TROUBLESHOOTING": "การทำงานของ enabling circuit relay contactsจะสามารถนำไปทดสอบได้เมื่อมีการ switched\n->ทดสอบการทำงาน",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "ใช้แผนการซ่อมบำรุงสำหรับเหตุการณ์เบื้องต้น",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-F wiring",
+      "DESCRIPTION": "DM-F module มี fault ที่สาย wiring\n(มีการ short-circuit เข้า ground ใน sensor circuit\/feedback circuit) \nGF LED ของ DM-F local จะมีไฟสีแดงค้าง",
+      "TROUBLESHOOTING": "ตรวจสอบการต่อสายของ sensor circuit\nและ feedback circuit เพื่อแก้ปัญหา fault",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 67
+     },
+     {
+      "EVENT": "DM-FL actual and set configuration different",
+      "DESCRIPTION": "ค่าที่ถูกตั้งไว้ใน DM-F Local ไม่ตรงกับ\nค่าที่ได้วางแผนไว้",
+      "TROUBLESHOOTING": "ตรวจสอบหาข้อผิดพลาดแล้วแก้ไขให้\nตรงกับ ค่าที่วางแผนไว้โดยการปรับค่าใน\nDIP switch ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-FL simultaneity",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ปัญหา fault โดยการปิด\/เปิด sensor inputs",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-FL configuration mode",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-FL cross circuit",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 68
+     },
+     {
+      "EVENT": "DM-FL waiting for startup test",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "DM-FP Orm error",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Double 0",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 13
+     },
+     {
+      "EVENT": "Double 1",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 14
+     },
+     {
+      "EVENT": "End position",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Counter command \"OPEN\/CLOSED!\"",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 15
+     },
+     {
+      "EVENT": "Ground-fault module short-circuit",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "External ground fault",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 29
+     },
+     {
+      "EVENT": "External Fault 1,2,3,4,5 or 6",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": "56,57,58,\n59,60,61"
+     },
+     {
+      "EVENT": "Required function is not supported",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Hardware fault",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหา fault",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 0
+     },
+     {
+      "EVENT": "Initialization module write-protected",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Initialization module write-protected,\nparameter changes not allowed",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Initialization module - identification data write-protected\n",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Intialization module read in",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Initialization module programmed",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Initialization module cleared",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Internal ground fault ",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 28
+     },
+     {
+      "EVENT": "No start possible",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped"
+     },
+     {
+      "EVENT": "Module fault",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 1
+     },
+     {
+      "EVENT": "Module supply voltage is not present",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped"
+     },
+     {
+      "EVENT": "Power failure (UVO)",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหา fault ก่อน reset หรือ OFF command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 18
+     },
+     {
+      "EVENT": "Just one start possible",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Parameter is incorrect \n(\"general fault\" category)",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 4
+     },
+     {
+      "EVENT": "Parameter is incorrect \n(\"EVENT\" category)",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Parameter changes not allowed in the\ncurrent operating state",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Wrong password",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Phase unbalance",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 25
+     },
+     {
+      "EVENT": "Feedback OFF",
+      "DESCRIPTION": "ไม่มีกระแสไฟไหลเข้า feeder ในขณะที่มีการสั่งให้ทำงาน",
+      "TROUBLESHOOTING": "ตัวระบบหลักมีการ interrupted (อาจเกิดจาก\nfuse , CB , main switch) หรือ\nmotor contractor\/contractor control ชำรุด",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset หรือ OFF command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 11
+     },
+     {
+      "EVENT": "Feedback ON",
+      "DESCRIPTION": "มีกระแสไฟไหลเข้า feeder ในขณะที่\nmotor feeder ไม่มีการทำงาน",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหา fault ก่อน reset หรือ OFF command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 10
+     },
+     {
+      "EVENT": "Test Position Feedback (TPF)",
+      "DESCRIPTION": "มีกระแสไฟไหลเข้า feeder ในขณะที่\nmotor feeder อยู่ที่จุด test position",
+      "TROUBLESHOOTING": "ระบบ circuit หลักไม่มีการ interrupted ใน\nปฎิบัติการทดสอบอุปกรณ์",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset หรือ OFF command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 17
+     },
+     {
+      "EVENT": "Status - cooling down period active",
+      "DESCRIPTION": "motor feeder หยุดทำงานเพราะมีการ\noverload",
+      "TROUBLESHOOTING": "motor feeder จะทำงานได้ก็ต่อเมื่อเวลา \ncooling down เสร็จสิ้นเท่านั้น",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Status - DM-F enabling circuit",
+      "DESCRIPTION": "แสดงค่าสถานะของ enabling circuit ว่า\n- closed หรือ\n- tripped",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Status - Emergency start executed",
+      "DESCRIPTION": "หน่วยความจำของ thermal ถูกล้างออกหมด\nเนื่องจากมีการ emergency start",
+      "TROUBLESHOOTING": "สั่งให้ motor ทำงานทันทีเมื่อมี\nการตัดไฟแบบ overload",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Status - Test position (TPF)",
+      "DESCRIPTION": "motor feeder อยู่ที่ตำแหน่ง test position \nตัวระบบหลักมีการ interrupted และ feeder\nสามารถ cold started ได้",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Stop time >",
+      "DESCRIPTION": "motor มีการทำงานเกินเวลาที่ได้กำหนดไว้",
+      "TROUBLESHOOTING": "ทำตามแผนการซ่อมบำรุงสำหรับตัว feeder\nสามารถสั่งให้ feeder ทำงานได้",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Fault - bus",
+      "DESCRIPTION": "การสื่อสารจาก PROFIBUS DP ถูก interrupted",
+      "TROUBLESHOOTING": "ตรวจสอบการเชื่อมต่อของ PROFIBUS\n(ปลั๊ก , สายเคเบิล ฯลฯ)",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 5
+     },
+     {
+      "EVENT": "Fault - PLC\/PCS",
+      "DESCRIPTION": "PLC ที่ควบคุม feeder อยู่ในโหมด STOP",
+      "TROUBLESHOOTING": "ตรวจสอบสภาวะการทำงานของ PLC",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 6
+     },
+     {
+      "EVENT": "Trip antivalence",
+      "DESCRIPTION": "limit switches ไม่มีการส่งสัญญาณ antivalents",
+      "TROUBLESHOOTING": " -Limit switch open circuit\n-ตรวจสอบการทำงานของ positioner และ \nlimit switches",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Counter command \"OPEN\/CLOSED!\"",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 16
+     },
+     {
+      "EVENT": "Fault - EM open circuit",
+      "DESCRIPTION": "มีการ open circuit ในสายที่เชื่อมกับ\n3UL23 residual current transformer",
+      "TROUBLESHOOTING": "ตรวจสอบสายที่เชื่อมกับ 3UL23 \nresidual current transformer",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": 38
+     },
+     {
+      "EVENT": "Fault - EM short-circuit",
+      "DESCRIPTION": "มีการ short circuit ในสายที่เชื่อมกับ\n3UL23 residual current transformer",
+      "TROUBLESHOOTING": "ตรวจสอบสายที่เชื่อมกับ 3UL23 \nresidual current transformer",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": 39
+     },
+     {
+      "EVENT": "Trip end position",
+      "DESCRIPTION": "positioner\/solenoid valve หลุดออกจาก\n end position โดยที่ไม่มีคำสั่งเกิดขึ้น\nMotor feeder ถูกหยุดการทำงาน",
+      "TROUBLESHOOTING": "Acknowledge fault โดยการปล่อย \ncounter command \"OPEN\/CLOSED!\"",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset หรือ Counter command",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 15
+     },
+     {
+      "EVENT": "Fault - temporary components \n(e.g. memory module)",
+      "DESCRIPTION": "หนึ่งในอุปกรณ์นี้มีการชำรุด :\nAddressing plug\nMemory module\nPC cable",
+      "TROUBLESHOOTING": "เปลี่ยนอุปกรณ์ชำรุด ,หาข้อมูลได้ที่\nReplacing SIMOCODE pro componenets หน้า 474",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 2
+     },
+     {
+      "EVENT": "Temperature module trip level overshot",
+      "DESCRIPTION": "อุณหภูมิเกินค่า trip level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่าอุณหภูมิ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": 35
+     },
+     {
+      "EVENT": "Temperature module warning level exceed",
+      "DESCRIPTION": "อุณหภูมิเกิน warning level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่าอุณหภูมิ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-"
+     },
+     {
+      "EVENT": "Temperature module out of range",
+      "DESCRIPTION": "sensor วัดอุณหภูมิ",
+      "TROUBLESHOOTING": "ตรวจสอบ sensor วัดอุณหภูมิ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 37
+     },
+     {
+      "EVENT": "Temperature module sensor fault",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบ sensor วัดอุณหภูมิ \nและสายเคเบิลของ sensor ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 36
+     },
+     {
+      "EVENT": "Test trip",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 65
+     },
+     {
+      "EVENT": "Thermistor trip level",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบ motor และการทำงานของ motor\nMotor ต้องมีอุณหภูมิลดลงถึงจุด reset point ของ thermistor ก่อนที่จะทำงานได้อีกครั้ง                ",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 31
+     },
+     {
+      "EVENT": "Thermistor open circuit",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบสายเคเบิลของ thermistor sensor และ thermistor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 33
+     },
+     {
+      "EVENT": "Thermistor short circuit",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบสายเคเบิลของ thermistor sensor และ thermistor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "แก้ไขปัญหาก่อน Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 32
+     },
+     {
+      "EVENT": "Overload",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบ motor และการทำงานของ motor\nMotor สามารถทำงานได้อีกครั้งเมื่อระยะเวลา cooling down จบ                    หรือมีการ emergency start",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 26
+     },
+     {
+      "EVENT": "Overload and unbalance",
+      "DESCRIPTION": "-",
+      "TROUBLESHOOTING": "ตรวจสอบ motor และการทำงานของ motor\nMotor สามารถทำงานได้อีกครั้งเมื่อระยะเวลา cooling down จบ                    หรือมีการ emergency start",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 27
+     },
+     {
+      "EVENT": "Pre-warning overload (I > 115%)",
+      "DESCRIPTION": "motor feeder อยู่ในสถานะการทำงานแบบ\noverload ซึ่งอาจก่อให้เกิดการตัดไฟได้ถ้า\nยังไม่มีการแก้ overload",
+      "TROUBLESHOOTING": "ตรวจสอบ motor และการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level cos phi <",
+      "DESCRIPTION": "ค่า power factor (cos phi) มีค่าต่ำกว่า\n warning level ซึ่งอาจเกิดจากตัว Motor\nทำงานแบบไม่มีโหลด",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level I < undershot",
+      "DESCRIPTION": "ค่ากระแสไฟฟ้าสูงสุดมีค่าต่ำกว่า warning level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level I > overshot",
+      "DESCRIPTION": "ค่ากระแสไฟฟ้าสูงสุดมีค่าสูงกว่า warning level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level P < undershot ",
+      "DESCRIPTION": "ค่ากำลังใน motor มีค่าต่ำกว่า warning level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level P > overshot",
+      "DESCRIPTION": "ค่ากำลังใน motor มีค่าสูงกว่า warning level",
+      "TROUBLESHOOTING": "ตรวจสอบการทำงานของ motor",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level U < undershot",
+      "DESCRIPTION": "แรงดันไฟใน motor มีค่าต่ำกว่า \nwarning level , อาจเกิดได้จาก\n-แรงดันใน network น้อยเกินไป\n-มีการตัดไฟจาก fuse",
+      "TROUBLESHOOTING": "ตรวจสอบ motor feeder",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level 0\/4 - 20 mA < undershot",
+      "DESCRIPTION": "ค่าที่วัดได้แบบ analog มีค่าต่ำกว่า\n warning level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่า",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Warning level 0\/4 - 20 mA > overshot",
+      "DESCRIPTION": "ค่าที่วัดได้แบบ analog มีค่าเกินกว่า\n warning level",
+      "TROUBLESHOOTING": "ตรวจสอบระบบวัดค่า",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "-",
+      "CONTACTOR_CONTROL": "-",
+      "ERROR_NO": "-"
+     },
+     {
+      "EVENT": "Permissible number of starts exceeded",
+      "DESCRIPTION": "มีการ start ตัวอุปกรณ์มากกว่าปริมาณที่\nได้จำกัดไว้ในช่วงเวลาที่กำหนด ,\nการ start ครั้งต่อไปไม่ควรเกิดขึ้นจนกว่า\nเวลา interlock จะเสร็จสิ้น",
+      "TROUBLESHOOTING": "-",
+      "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset",
+      "CONTACTOR_CONTROL": "Tripped",
+      "ERROR_NO": 52
+     }
+    ]
+    }

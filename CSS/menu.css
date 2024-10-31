@@ -1,0 +1,41 @@
+.album2 {
+    background: linear-gradient(rgb(2, 2, 103),rgb(158, 166, 253));
+
+}
+
+.album2 h1{
+    color: #e2e1e1;
+    text-shadow: 0 0 10px rgb(138, 230, 247),
+    0 0 20px rgb(138, 230, 247),
+    0 0 40px rgb(138, 230, 247),
+    0 0 80px rgb(138, 230, 247),
+    0 0 120px rgb(138, 230, 247);
+}
+
+.album3{
+    background: linear-gradient(rgb(4, 207, 243),rgb(176, 242, 236));
+}
+
+.album3 h1{
+    color: #6007fa;
+    text-shadow: 0 0 10px rgb(226, 158, 245),
+    0 0 20px rgb(226, 158, 245),
+    0 0 40px rgb(226, 158, 245),
+    0 0 80px rgb(226, 158, 245),
+    0 0 120px rgb(226, 158, 245);
+}
+
+.album4{
+    background: linear-gradient(rgb(4, 243, 167),rgb(193, 241, 230));
+}
+
+.album4 h1{
+    color: #020d6d;
+    text-shadow: 0 0 10px rgb(114, 229, 252),
+    0 0 20px rgb(114, 229, 252),
+    0 0 40px rgb(114, 229, 252),
+    0 0 80px rgb(114, 229, 252),
+    0 0 120px rgb(114, 229, 252);
+}
+
+

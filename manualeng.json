@@ -1,0 +1,707 @@
+{
+    "SIMOCODE":[
+        {
+            "EVENT": "Analog module open circuit",
+            "DESCRIPTION": "An open circuit has occurred in the analog value measuring circuit.",
+            "TROUBLESHOOTING": "Check the measured value sensor and the measuring circuit.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": 64,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Startup parameter block active",
+            "DESCRIPTION": "The startup parameter block prevents transfer of SIMOCODE pro parameters that can be saved in the DP master. The block must be set if • SIMOCODE ES or• SIMATIC PDM is usedfor parameterizing. The block may not be set if• SIMOCODE pro C\/S\/Vis integrated in STEP7via the SIMOCODE proObject Manager (OM),or• SIMOCODE pro C hasbeen parameterized viaGSD.NoticeOn devices in the asdelivered condition or after the factory settings have been restored, the parameter block is not active!",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Antivalence ",
+            "DESCRIPTION": "Only for positioner 5 control function: The change-over contacts of the limit switch do not issue an antivalent signal.",
+            "TROUBLESHOOTING": "Limit switch defect, open circuit limit switch",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Configuration error",
+            "DESCRIPTION": "The configured unit configuration does not match the actual configuration.",
+            "TROUBLESHOOTING": "• Check whether all theconfigured componentsare available• Check the actualconfiguration with\"Configuration\".",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the proble m; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 3
+           },
+           {
+            "EVENT": "Execution STOP command",
+            "DESCRIPTION": "The motor feeder could not be turned off after a STOP command was issued.",
+            "TROUBLESHOOTING": "• The contactor contactis welded• Parameter executiontime is too short• The \"open\" endposition has not beenreached during theparameterized runtime(only for the\"Positioner\" and\"Solenoid valve\" control functions).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 9
+           },
+           {
+            "EVENT": "Execution ON command",
+            "DESCRIPTION": "The motor feeder could not be turned on after an ON command is issued.",
+            "TROUBLESHOOTING": "• Main circuit isinterrupted (fuse, circuitbreaker)• The motor contactor orcontactor control isdefective• Parameter executiontime is too short.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset orOFF command\/ counter command",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 8
+           },
+           {
+            "EVENT": "Trip level Cos Phi<",
+            "DESCRIPTION": "The power factor (cos phi) has undershot the trip level. Possible causes: The motor is being operated without a load.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 44,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level I < undershot",
+            "DESCRIPTION": "The maximum current has undershot the trip level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 41,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level I > overshot",
+            "DESCRIPTION": "The maximum current has overshot the trip level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 40,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level P < undershot",
+            "DESCRIPTION": "The active power of the motor has undershot the trip level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 43,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level P > overshot",
+            "DESCRIPTION": "The active power of the motor has overshot the trip level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 42,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level U < undershot",
+            "DESCRIPTION": "The voltage in the motor feeder has undershot the trip level. Possible causes:• Undervoltage in thenetwork• Fuse has tripped.",
+            "TROUBLESHOOTING": "Check the motor feeder. ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 45,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level 0\/4 - 20 mA < undershot",
+            "DESCRIPTION": "The measured value at the analog input has undershot the trip level.",
+            "TROUBLESHOOTING": "Check the measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 47,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip level 0\/4 - 20 mA > overshot",
+            "DESCRIPTION": "The measured value at the analog input has overshot the trip level.",
+            "TROUBLESHOOTING": "Check the measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 46,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Operational Protection Off (OPO)",
+            "DESCRIPTION": "An \"Operational Protection Off (OPO)\" signal is pending. A switched-on motor feeder has been switched off. The feeder cannot be switched on while the OPO signal is active.",
+            "TROUBLESHOOTING": "Reset ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped; for positioners: QE1 or QE2 switched on until end position is reached - depending upon configuration",
+            "CONTACTOR_CONTROL": 19,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Motor operating hours >",
+            "DESCRIPTION": "The configured limit value for motor operating hours monitoring has been exceeded.",
+            "TROUBLESHOOTING": "Please adopt the maintenance measures intended for the feeder.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Stalled rotor ",
+            "DESCRIPTION": "The maximum motor current has exceeded the threshold for stalled rotor protection. Possible causes: The motor is blocked.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 48
+           },
+           {
+            "EVENT": "Stalled positioner",
+            "DESCRIPTION": "The torque switch has activated before or without the respective limit switch.",
+            "TROUBLESHOOTING": "• The positioner may beblocked.• Acknowledge the faultby releasing with the\"OPEN\/CLOSED\"counter command.• Please check thepositioner applicationand the limit switches.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Counter command \"OPEN \/ CLOSED!\"",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 12
+           },
+           {
+            "EVENT": "DM-F feedback circuit",
+            "DESCRIPTION": "The DM-F Local or DMF PROFIsafe has detected a fault in the feedback circuit (the feedback circuit must be closed as the enabling circuit is switched on); The \"GF\" (general fault) LED on the front of the DM-F Local or DM-F PROFIsafe is flashing red.",
+            "TROUBLESHOOTING": "• Check the wiring of thefeedback circuit• Check the contactblocks in the feedbackcircuit.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify fault so that the feedback circuit is closed.",
+            "CONTACTOR_CONTROL": "Tripped",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-F safetyrelated tripping",
+            "DESCRIPTION": "The DM-F has tripped the enabling circuit for safety reasons.",
+            "TROUBLESHOOTING": "The motor can only be switched on again after the DM-F module enabling circuits have been closed.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Acknowledge with \"Reset\", if autoreset is not active.",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 66
+           },
+           {
+            "EVENT": "DM-F test requirement",
+            "DESCRIPTION": "The enabling circuits of the DM-F Local or DMF PROFIsafe have not been opened and closed again within the configured time period.",
+            "TROUBLESHOOTING": "The function of the enabling circuit relay contacts can only be tested when they are switched. Perform a function test.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Please apply the maintenance measures prescribed for this scenario.",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-F wiring ",
+            "DESCRIPTION": "DM-F module wiring fault (short-circuit to ground in the sensor circuit\/feedback circuit); the \"GF\" (general fault) LED on the front of the DM-F Local is lighted red.",
+            "TROUBLESHOOTING": "• Check the wiring of thesensor circuits \/feedback circuit• Rectify the fault.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 67
+           },
+           {
+            "EVENT": "DM-FL actual and set configuration different",
+            "DESCRIPTION": "The actual configuration of the DM-F Local does not correspond to the parameterized set configuration.",
+            "TROUBLESHOOTING": "Check whether the effective configuration of the DM-F Local corresponds to the parameterized set configuration. Correct the effective configuration by changing the DIP switch settings or adjusting the set configuration by means of parameterization if required.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-FL simultaneity",
+            "DESCRIPTION": "The DM-F LOCAL has detected a discrepancy error in the 2-channel sensor circuit.",
+            "TROUBLESHOOTING": "Check the switching elements in the sensor circuit.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the fault by opening or closing the sensor inputs",
+            "CONTACTOR_CONTROL": "Tripped",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-FL configuration mode",
+            "DESCRIPTION": "The DM-F Local is in \"configuration mode\"; the \"DEVICE\" LED on the front of the DM-F Local is lighted yellow.",
+            "TROUBLESHOOTING": "Complete the configuration (see Manual SIMOCODE pro Safety fail-safe digital modules (http:\/\/support.automation.siemens.com\/WW\/view\/en\/50564852), Chapter 7.4).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-FL cross circuit",
+            "DESCRIPTION": "Cross circuit in sensor circuit of DM-F Local; the \"GF\" (general fault) LED on the front of the DM-F Local is lighted red.",
+            "TROUBLESHOOTING": "• Check the wiring ofboth sensor circuits forcross circuiting• Rectify the fault.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 68
+           },
+           {
+            "EVENT": "DM-FL waiting for startup test",
+            "DESCRIPTION": "The DM-F LOCAL is in the \"Waiting for start-up test\" status.",
+            "TROUBLESHOOTING": "Perform the startup test by actuating the sensor in the sensor circuit.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "DM-FP Prm error",
+            "DESCRIPTION": "The parameter settings of the PROFIsafe profile are incorrect or the set PROFIsafe address is not identical to the configured address.",
+            "TROUBLESHOOTING": "Check the PROFIBUS \/ PROFIsafe parameters of SIMOCODE pro that were set on the DP master system.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Double 0 ",
+            "DESCRIPTION": "Both torque switches have activated simultaneously. The motor feeder has been turned off.",
+            "TROUBLESHOOTING": "• Open circuit torqueswitch.• Torque switch isdefective.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 13,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Double 1 ",
+            "DESCRIPTION": "Both limit switches have activated simultaneously.",
+            "TROUBLESHOOTING": "Limit switch is defective. ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 14,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "End position ",
+            "DESCRIPTION": "Except positioner 5 control function: The state of the limit switch has changed without a command (positioner has left the end position without a command).",
+            "TROUBLESHOOTING": "Counter command \"OPEN \/ CLOSED !\"",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 15,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Ground-fault module shortcircuit",
+            "DESCRIPTION": "A short-circuit has occurred in the wiring to the residual current transformer",
+            "TROUBLESHOOTING": "Check the line to the residual current transformer",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "External ground fault",
+            "DESCRIPTION": "External ground-fault monitoring has responded. An impermissibly high residual current is flowing.",
+            "TROUBLESHOOTING": "Please check the motor connection cable for damage.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 29
+           },
+           {
+            "EVENT": "External Fault1, 2, 3, 4, 5 or 6",
+            "DESCRIPTION": "A signal is pending at the input (socket) of the \"External fault 1, 2, 3, 4, 5 or 6\" standard function.",
+            "TROUBLESHOOTING": "Check the motor feeder. ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": "56,57,58,59,60,61",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Required function is not supported",
+            "DESCRIPTION": "At least one parameterized function is not supported by the version of the basic unit.",
+            "TROUBLESHOOTING": "Activate only the functions that are supported by the version of the basic unit. For example, SIMOCODE pro V basic units with the version *E01* do not support voltage measurement, the temperature module, or the analog module.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Hardware fault ",
+            "DESCRIPTION": "The SIMOCODE pro basic unit hardware is defective.",
+            "TROUBLESHOOTING": "Replace the basic unit. See Chapter Replacing SIMOCODE pro components (Page 474).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the fault ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 0
+           },
+           {
+            "EVENT": "Initialization module writeprotected",
+            "DESCRIPTION": "The initialization module is completely write-protected.",
+            "TROUBLESHOOTING": "Deactivate write protection of the initialization module.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Initialization module writeprotected, parameter changes not allowed",
+            "DESCRIPTION": "The initialization modules is completely or partially write-protected. Reparameterization of SIMOCODE pro is denied because the initialization module is write-protected.",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Initialization module - identification data writeprotected",
+            "DESCRIPTION": "Reparameterization has been rejected because the initialization module is write-protected.",
+            "TROUBLESHOOTING": "• Select aparameterization withidentical addressingand I&M data• Deactivate the partialwrite protection of theinitialization module.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Initialization module read in",
+            "DESCRIPTION": "The parameters of the initialization module were read into SIMOCODE.",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Initialization module programmed",
+            "DESCRIPTION": "The reparameterization was accepted in the initialization module.",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Initialization module cleared",
+            "DESCRIPTION": "The initialization module has been cleared and is now back in the asdelivered condition.",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Internal ground fault",
+            "DESCRIPTION": "Internal ground-fault monitoring response. An impermissibly high residual current is flowing.",
+            "TROUBLESHOOTING": "Please check the motor connection cable for damage.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 28
+           },
+           {
+            "EVENT": "No start possible",
+            "DESCRIPTION": "The permissible number of starts in the monitoring timeframe has been attained. The next start should not be carried out until the interlocking time has expired.",
+            "TROUBLESHOOTING": "Reset ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Module fault ",
+            "DESCRIPTION": "At least 1 SIMOCODE pro module is not ready for use.",
+            "TROUBLESHOOTING": "• Connecting cabledefective or incorrectlyconnectedModule defective. Replace the module.See Chapter Replacing SIMOCODE pro components(Page 474).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 1
+           },
+           {
+            "EVENT": "Module supply voltage is not present",
+            "DESCRIPTION": "Supply voltage on the DMF Local is too low or not present.",
+            "TROUBLESHOOTING": "• The terminals are notwired properly• Module defective.Please replace themodule. See Chapter Replacing SIMOCODE pro components(Page 474).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Power failure (UVO)",
+            "DESCRIPTION": "The power failure lasted longer than the set power failure time.",
+            "TROUBLESHOOTING": "Rectify the fault; reset or OFF command",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 18,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Just one start possible",
+            "DESCRIPTION": "The start after the next one should not be carried out until the interlocking time has expired.",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Parameter is incorrect (\"general fault\" category)",
+            "DESCRIPTION": "The parameter data is incorrect.",
+            "TROUBLESHOOTING": "The designation of the faulty parameter can be found via the number (byte No.) in the System Manual, ChapterTables (Page 493).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 4
+           },
+           {
+            "EVENT": "Parameter is incorrect (\"Event\" category)",
+            "DESCRIPTION": "The parameter data transferred to the unit is incorrect. Errors in the parameter data can occur, for example, if the device has not been parameterized with SIMOCODE ES or SIMATIC PDM.",
+            "TROUBLESHOOTING": "Check the parameter data (data records 130 through 133) that has been transmitted to the device for the correct content.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Parameter changes not allowed in the current operating state",
+            "DESCRIPTION": "You attempted to change at least one parameter that cannot be changed in the current operating state.",
+            "TROUBLESHOOTING": "Many parameters can onlybe changed if the motor feeder is switched off andnot in \"Remote\" mode. The following parameters can always be changed: SeeChapter Data formats and data records (Page 513).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Wrong password",
+            "DESCRIPTION": "SIMOCODE pro parameters are protected by a password. An attempt has been made to change the parameters without entering the password.",
+            "TROUBLESHOOTING": "Please use the correct password for changing the parameters. If you do not know the password, new parameters can only be entered after the factory settings have been restored. For a description of how to restore the factory settings, seeChapter Restoring factory settings (Page 476).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Phase unbalance",
+            "DESCRIPTION": "The limit value for phase unbalance has been exceeded. Phase unbalance can cause an overload. Possible causes:• Phase failure• Fault in the motorwindings.",
+            "TROUBLESHOOTING": "Check the motor feeder and the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 25
+           },
+           {
+            "EVENT": "Feedback OFF ",
+            "DESCRIPTION": "The current flow in the motor feeder has been interrupted without the motor feeder being turned off.",
+            "TROUBLESHOOTING": "• The main circuit hasbeen interrupted (fuse,circuit breaker, mainswitch).• The motor contactor orcontactor control isdefective",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset or OFF command",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 11
+           },
+           {
+            "EVENT": "Feedback ON ",
+            "DESCRIPTION": "Current is flowing in the motor feeder without the motor feeder being switched on",
+            "TROUBLESHOOTING": "• Contactor contactshave been manuallyactivated• Contactor has not beenswitched on viaSIMOCODE",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the fault; reset or OFF command",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 10
+           },
+           {
+            "EVENT": "Test Position Feedback (TPF)",
+            "DESCRIPTION": "Current is flowing in the motor feeder although the motor feeder is in the test position (TPF).",
+            "TROUBLESHOOTING": "The main circuit is not interrupted in test operation.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset or OFF command",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 17
+           },
+           {
+            "EVENT": "Status - Cooling down period active",
+            "DESCRIPTION": "The motor feeder has been switched off due to overload.",
+            "TROUBLESHOOTING": "The motor can only be switched on again after the cooling down period has expired.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Status - DM-F enabling circuit",
+            "DESCRIPTION": "Shows the status of the enabling circuit:• closed or• tripped",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Status - Emergency start executed",
+            "DESCRIPTION": "The thermal memory has been cleared with the function \"Emergency start\".",
+            "TROUBLESHOOTING": "The motor can be switched on again immediately after an overload trip.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Status - Test position (TPF)",
+            "DESCRIPTION": "The motor feeder is in the test position (TPF). The main circuit has been interrupted and the feeder can be \"cold started\".",
+            "TROUBLESHOOTING": " -",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Stop time > ",
+            "DESCRIPTION": "The configured limit value for motor stop time monitoring has been exceeded.",
+            "TROUBLESHOOTING": "Please take the maintenance measures intended for the feeder. If possible, switch on the feeder.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Fault - bus ",
+            "DESCRIPTION": "PROFIBUS DP communication has been interrupted or is interrupted.",
+            "TROUBLESHOOTING": "Check the PROFIBUS connection (plugs, cables, etc.).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 5
+           },
+           {
+            "EVENT": "Fault -PLC\/PCS",
+            "DESCRIPTION": "The PLC that controls the feeder was or is in STOP mode.",
+            "TROUBLESHOOTING": "Check the operating state of the PLC.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 6
+           },
+           {
+            "EVENT": "Trip antivalence ",
+            "DESCRIPTION": "The limit switches are not reporting any antivalent signals.",
+            "TROUBLESHOOTING": "• Limit switch open circuit• Please check thepositioner applicationand the limit switches.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Counter command \"OPEN\/CLOSED\"",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 16
+           },
+           {
+            "EVENT": "Fault -EM open circuit",
+            "DESCRIPTION": "A short circuit has occurred in the wiring to the 3UL23 residual current transformer.",
+            "TROUBLESHOOTING": "Check the line to the 3UL23 residual current transformer",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": 38,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Fault -EM short-circuit",
+            "DESCRIPTION": "A short-circuit has occurred in the wiring to the 3UL23 residual current transformer.",
+            "TROUBLESHOOTING": "Check the line to the 3UL23 residual current transformer",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": 39,
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Trip end position",
+            "DESCRIPTION": "Positioner\/solenoid valve has left the end position without a command being issued. The motor feeder has been turned off.",
+            "TROUBLESHOOTING": "Acknowledge the fault by releasing with the counter command \"OPEN\/CLOSED.\"",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset; counter command",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 15
+           },
+           {
+            "EVENT": "Fault - temporary components (e.g. memory module)",
+            "DESCRIPTION": "One of the following components is defective:• Addressing plug• Memory module• PC cable.",
+            "TROUBLESHOOTING": "Replace the defective components. See Chapter Replacing SIMOCODE pro components (Page 474).",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 2
+           },
+           {
+            "EVENT": "Temperature module trip level overshot",
+            "DESCRIPTION": "The temperature trip level has been overshot.",
+            "TROUBLESHOOTING": "Check the temperature measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": 35,
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Temperature module warning level exceeded",
+            "DESCRIPTION": "The temperature warning level has been exceeded.",
+            "TROUBLESHOOTING": "Check the temperature measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Temperature module out of range",
+            "DESCRIPTION": "Temperature sensor is delivering impermissible values.",
+            "TROUBLESHOOTING": "Check the temperature sensor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 37
+           },
+           {
+            "EVENT": "Temperature module sensor fault",
+            "DESCRIPTION": "Either a short circuit or an open circuit has occurred in the temperature sensor circuit.",
+            "TROUBLESHOOTING": "Check the temperature sensor and the sensor cable.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 36
+           },
+           {
+            "EVENT": "Test trip ",
+            "DESCRIPTION": "The motor feeder has been checked and switched off by a test trip.",
+            "TROUBLESHOOTING": "Reset ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 65
+           },
+           {
+            "EVENT": "Thermistor trip level",
+            "DESCRIPTION": "Thermistor protection response. The temperature of the motor is too high.",
+            "TROUBLESHOOTING": "Please check the motor and the application that is being driven by the motor. The motor cannot be switched on again until the temperature has reached the reset point of the thermistor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 31
+           },
+           {
+            "EVENT": "Thermistor open circuit",
+            "DESCRIPTION": "An open circuit has occurred in the thermistor sensor cable.",
+            "TROUBLESHOOTING": "Check the thermistor sensor cable and the thermistor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 33
+           },
+           {
+            "EVENT": "Thermistor short circuit",
+            "DESCRIPTION": "A short circuit has occurred in the thermistor sensor cable.",
+            "TROUBLESHOOTING": "Check the thermistor sensor cable and the thermistor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Rectify the problem; reset",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 32
+           },
+           {
+            "EVENT": "Overload ",
+            "DESCRIPTION": "The motor feeder has been overloaded.",
+            "TROUBLESHOOTING": "Please check the motor and the application that is being driven by the motor. The motor can be switched on again after the cooling down period has expired or after an emergency start.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 26
+           },
+           {
+            "EVENT": "Overload and unbalance",
+            "DESCRIPTION": "There is a load unbalance on the motor feeder phases. Possible causes:• Phase failure• Fault in the motorwindings.",
+            "TROUBLESHOOTING": "Check the motor feeder and the motor. The motor can be switched on again after the cooling down period has expired or after an emergency start.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Reset, auto-reset ",
+            "CONTACTOR_CONTROL": "Tripped ",
+            "ERROR_NO": 27
+           },
+           {
+            "EVENT": "Pre-warning overload (I > 115 %)",
+            "DESCRIPTION": "The motor feeder is in overload operation. If this condition continues to persist, the motor feeder will trip within a short period of time due to overload.",
+            "TROUBLESHOOTING": "Please check the motor and the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level cos phi <",
+            "DESCRIPTION": "The power factor cos phi has undershot the warning level. Possible causes: The motor is being operated without a load.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level I < undershot",
+            "DESCRIPTION": "The maximum current has undershot the warning level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level I > overshot",
+            "DESCRIPTION": "The maximum current has overshot the warning level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level P < undershot",
+            "DESCRIPTION": "The active power of the motor has undershot the warning level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level P > overshot",
+            "DESCRIPTION": "The active power of the motor has overshot the warning level.",
+            "TROUBLESHOOTING": "Please check the application that is being driven by the motor.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level U < undershot",
+            "DESCRIPTION": "The voltage in the motor feeder has undershot the warning level. Possible causes:• Undervoltage in thenetwork• Fuse has tripped.",
+            "TROUBLESHOOTING": "Check the motor feeder.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level 0\/4 -20 mA < undershot",
+            "DESCRIPTION": "The measured value at the analog input has undershot the warning level.",
+            "TROUBLESHOOTING": "Check the measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Warning level 0\/4 - 20 mA > overshot",
+            "DESCRIPTION": "The measured value at the analog input has overshot the warning level.",
+            "TROUBLESHOOTING": "Check the measuring station.",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": " -",
+            "CONTACTOR_CONTROL": " -",
+            "ERROR_NO": " -"
+           },
+           {
+            "EVENT": "Permissible number of starts exceeded",
+            "DESCRIPTION": "The permissible number of starts in the monitoring timeframe has already been exceeded. The next start should not be carried out until the interlocking time has expired.",
+            "TROUBLESHOOTING": "Reset ",
+            "ACKNOWLEDGE_FAULT_RECTIFICATION": "Tripped ",
+            "CONTACTOR_CONTROL": 52,
+            "ERROR_NO": " -"
+           }
+    ]
+    }

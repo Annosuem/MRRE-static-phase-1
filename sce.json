@@ -1,0 +1,4409 @@
+{
+  "scelist":[
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7128",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7128",
+    "MP": "82280",
+    "MI": "102559"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7133",
+    "FL": "CLD1-44 -E4407",
+    "EQ": "CLD1-AA7133",
+    "MP": "82281",
+    "MI": "102560"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7134",
+    "FL": "CLD1-37 -P3701R",
+    "EQ": "CLD1-AA7134",
+    "MP": "82282",
+    "MI": "102561"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7135",
+    "FL": "CLD1-37 -P3702R",
+    "EQ": "CLD1-AA7135",
+    "MP": "82283",
+    "MI": "102562"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7136",
+    "FL": "CLD1-38 -P3801R",
+    "EQ": "CLD1-AA7136",
+    "MP": "82284",
+    "MI": "102563"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7137",
+    "FL": "CLD1-41 -P4101R",
+    "EQ": "CLD1-AA7137",
+    "MP": "82285",
+    "MI": "102564"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7138",
+    "FL": "CLD1-42 -P4201R",
+    "EQ": "CLD1-AA7138",
+    "MP": "82286",
+    "MI": "102565"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7139",
+    "FL": "CLD1-42 -P4202R",
+    "EQ": "CLD1-AA7139",
+    "MP": "82287",
+    "MI": "102566"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7140",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7140",
+    "MP": "82288",
+    "MI": "102567"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7141",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7141",
+    "MP": "82289",
+    "MI": "102568"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7160",
+    "FL": "CLD1-37 -QMI_GD",
+    "EQ": "CLD1-AA7160",
+    "MP": "82293",
+    "MI": "102572"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7161",
+    "FL": "CLD1-37 -QMI_GD",
+    "EQ": "CLD1-AA7161",
+    "MP": "82294",
+    "MI": "102573"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7162",
+    "FL": "CLD1-37 -QMI_GD",
+    "EQ": "CLD1-AA7162",
+    "MP": "82295",
+    "MI": "102574"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7163",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7163",
+    "MP": "82296",
+    "MI": "102575"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7164",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7164",
+    "MP": "82297",
+    "MI": "102576"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7165",
+    "FL": "CLD1-38 -QMI_GD",
+    "EQ": "CLD1-AA7165",
+    "MP": "82298",
+    "MI": "102577"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7184",
+    "FL": "CLD1-88 -QMI_GD",
+    "EQ": "CLD1-AA7184",
+    "MP": "82299",
+    "MI": "102578"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7190",
+    "FL": "CLD1-42 -P4203R",
+    "EQ": "CLD1-AA7190",
+    "MP": "82300",
+    "MI": "102579"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7191",
+    "FL": "CLD1-42 -P4205R",
+    "EQ": "CLD1-AA7191",
+    "MP": "82301",
+    "MI": "102580"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7192",
+    "FL": "CLD1-42 -P4204R",
+    "EQ": "CLD1-AA7192",
+    "MP": "82302",
+    "MI": "102581"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7194",
+    "FL": "CLD1-42 -D4204",
+    "EQ": "CLD1-AA7194",
+    "MP": "82303",
+    "MI": "102582"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7198",
+    "FL": "CLD1-BDG-QMI_GD",
+    "EQ": "CLD1-AA7198",
+    "MP": "82304",
+    "MI": "102583"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7175",
+    "FL": "CLD1-42 -C4201",
+    "EQ": "CLD1-AA7175",
+    "MP": "82305",
+    "MI": "102584"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7176",
+    "FL": "CLD1-42 -C4201",
+    "EQ": "CLD1-AA7176",
+    "MP": "82306",
+    "MI": "102585"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7196",
+    "FL": "CLD1-42 -C4203",
+    "EQ": "CLD1-AA7196",
+    "MP": "82307",
+    "MI": "102586"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7197",
+    "FL": "CLD1-42 -C4203",
+    "EQ": "CLD1-AA7197",
+    "MP": "82308",
+    "MI": "102587"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7120",
+    "FL": "CLD1-44 -C4401",
+    "EQ": "CLD1-AA7120",
+    "MP": "82309",
+    "MI": "102588"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7121",
+    "FL": "CLD1-44 -C4401",
+    "EQ": "CLD1-AA7121",
+    "MP": "82310",
+    "MI": "102589"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7122",
+    "FL": "CLD1-44 -C4401",
+    "EQ": "CLD1-AA7122",
+    "MP": "82311",
+    "MI": "102590"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7123",
+    "FL": "CLD1-44 -C4401",
+    "EQ": "CLD1-AA7123",
+    "MP": "82312",
+    "MI": "102591"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7124",
+    "FL": "CLD1-46 -C4601",
+    "EQ": "CLD1-AA7124",
+    "MP": "82313",
+    "MI": "102592"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7125",
+    "FL": "CLD1-46 -C4601",
+    "EQ": "CLD1-AA7125",
+    "MP": "82314",
+    "MI": "102593"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7126",
+    "FL": "CLD1-46 -C4601",
+    "EQ": "CLD1-AA7126",
+    "MP": "82315",
+    "MI": "102594"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7127",
+    "FL": "CLD1-46 -C4601",
+    "EQ": "CLD1-AA7127",
+    "MP": "82316",
+    "MI": "102595"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7200",
+    "FL": "CLD1-44 -QMI_GD",
+    "EQ": "CLD1-AA7200",
+    "MP": "246825",
+    "MI": "278780"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA4401",
+    "FL": "CLD1-44 -A4402A",
+    "EQ": "CLD1-AA4401",
+    "MP": "208736",
+    "MI": "239634"
+   },
+   {
+    "Plant": "CLD1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA4402",
+    "FL": "CLD1-44 -A4401",
+    "EQ": "CLD1-AA4402",
+    "MP": "208737",
+    "MI": "239635"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7113",
+    "FL": "CLD2-56 -P5601",
+    "EQ": "CLD2-AA7113",
+    "MP": "82317",
+    "MI": "102596"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7142",
+    "FL": "CLD2-57 -P5702",
+    "EQ": "CLD2-AA7142",
+    "MP": "82318",
+    "MI": "102597"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7143",
+    "FL": "CLD2-57 -P5701",
+    "EQ": "CLD2-AA7143",
+    "MP": "82319",
+    "MI": "102598"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7144",
+    "FL": "CLD2-51 -P5101",
+    "EQ": "CLD2-AA7144",
+    "MP": "82320",
+    "MI": "102599"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7145",
+    "FL": "CLD2-85 -P8501",
+    "EQ": "CLD2-AA7145",
+    "MP": "82321",
+    "MI": "102600"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7146",
+    "FL": "CLD2-55 -QMI_GD",
+    "EQ": "CLD2-AA7146",
+    "MP": "82322",
+    "MI": "102601"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7147",
+    "FL": "CLD2-55 -P5501",
+    "EQ": "CLD2-AA7147",
+    "MP": "82323",
+    "MI": "102602"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7148",
+    "FL": "CLD2-53 -P5301",
+    "EQ": "CLD2-AA7148",
+    "MP": "82324",
+    "MI": "102603"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7149",
+    "FL": "CLD2-52 -P5201R",
+    "EQ": "CLD2-AA7149",
+    "MP": "82325",
+    "MI": "102604"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7153",
+    "FL": "CLD2-55 -A5501A",
+    "EQ": "CLD2-AA7153",
+    "MP": "82326",
+    "MI": "102605"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7154",
+    "FL": "CLD2-55 -E5502A",
+    "EQ": "CLD2-AA7154",
+    "MP": "82327",
+    "MI": "102606"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7155",
+    "FL": "CLD2-52 -R5201",
+    "EQ": "CLD2-AA7155",
+    "MP": "82328",
+    "MI": "102607"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7156",
+    "FL": "CLD2-52 -R5201",
+    "EQ": "CLD2-AA7156",
+    "MP": "82329",
+    "MI": "102608"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7166",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7166",
+    "MP": "82330",
+    "MI": "102609"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7167",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7167",
+    "MP": "82331",
+    "MI": "102610"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7168",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7168",
+    "MP": "82332",
+    "MI": "102611"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7173",
+    "FL": "CLD2-61 -R6101",
+    "EQ": "CLD2-AA7173",
+    "MP": "82333",
+    "MI": "102612"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7174",
+    "FL": "CLD2-61 -R6101R",
+    "EQ": "CLD2-AA7174",
+    "MP": "82334",
+    "MI": "102613"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7177",
+    "FL": "CLD2-61 -P6101R",
+    "EQ": "CLD2-AA7177",
+    "MP": "82335",
+    "MI": "102614"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7178",
+    "FL": "CLD2-61 -P6102R",
+    "EQ": "CLD2-AA7178",
+    "MP": "82336",
+    "MI": "102615"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7179",
+    "FL": "CLD2-63 -P6301R",
+    "EQ": "CLD2-AA7179",
+    "MP": "82337",
+    "MI": "102616"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7180",
+    "FL": "CLD2-63 -P6302R",
+    "EQ": "CLD2-AA7180",
+    "MP": "82338",
+    "MI": "102617"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7181",
+    "FL": "CLD2-62 -QMI_GD",
+    "EQ": "CLD2-AA7181",
+    "MP": "82339",
+    "MI": "102618"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7182",
+    "FL": "CLD2-62 -QMI_GD",
+    "EQ": "CLD2-AA7182",
+    "MP": "82340",
+    "MI": "102619"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7183",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7183",
+    "MP": "82341",
+    "MI": "102620"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7185",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7185",
+    "MP": "82342",
+    "MI": "102621"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8101",
+    "FL": "CLD2-95 -QMI_GD",
+    "EQ": "CLD2-AA8101",
+    "MP": "82343",
+    "MI": "102622"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8102",
+    "FL": "CLD2-95 -QMI_GD",
+    "EQ": "CLD2-AA8102",
+    "MP": "82344",
+    "MI": "102623"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8103",
+    "FL": "CLD2-25 -QMI_GD",
+    "EQ": "CLD2-AA8103",
+    "MP": "82345",
+    "MI": "102624"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8104",
+    "FL": "CLD2-25 -QMI_GD",
+    "EQ": "CLD2-AA8104",
+    "MP": "82346",
+    "MI": "102625"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8105",
+    "FL": "CLD2-25 -D2502B",
+    "EQ": "CLD2-AA8105",
+    "MP": "82347",
+    "MI": "102626"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8106",
+    "FL": "CLD2-25 -D2502A",
+    "EQ": "CLD2-AA8106",
+    "MP": "82348",
+    "MI": "102627"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8107",
+    "FL": "CLD2-95 -QMI_GD",
+    "EQ": "CLD2-AA8107",
+    "MP": "82349",
+    "MI": "102628"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8108",
+    "FL": "CLD2-25 -QMI_GD",
+    "EQ": "CLD2-AA8108",
+    "MP": "82350",
+    "MI": "102629"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8109",
+    "FL": "CLD2-95 -P9505R",
+    "EQ": "CLD2-AA8109",
+    "MP": "82351",
+    "MI": "102630"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8110",
+    "FL": "CLD2-95 -P9504R",
+    "EQ": "CLD2-AA8110",
+    "MP": "82352",
+    "MI": "102631"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8111",
+    "FL": "CLD2-95 -D9504",
+    "EQ": "CLD2-AA8111",
+    "MP": "82353",
+    "MI": "102632"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8112",
+    "FL": "CLD2-95 -P9503R",
+    "EQ": "CLD2-AA8112",
+    "MP": "82354",
+    "MI": "102633"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8114",
+    "FL": "CLD2-95 -P9501R",
+    "EQ": "CLD2-AA8114",
+    "MP": "82355",
+    "MI": "102634"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7186",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7186",
+    "MP": "82356",
+    "MI": "102635"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7187",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7187",
+    "MP": "82357",
+    "MI": "102636"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7188",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7188",
+    "MP": "82358",
+    "MI": "102637"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7189",
+    "FL": "CLD2-64 -QMI_GD",
+    "EQ": "CLD2-AA7189",
+    "MP": "82359",
+    "MI": "102638"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7150",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7150",
+    "MP": "82360",
+    "MI": "102639"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7151",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7151",
+    "MP": "82361",
+    "MI": "102640"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7152",
+    "FL": "CLD2-52 -QMI_GD",
+    "EQ": "CLD2-AA7152",
+    "MP": "82362",
+    "MI": "102641"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8120",
+    "FL": "CLD2-25 -P2501A",
+    "EQ": "CLD2-AA8120",
+    "MP": "82363",
+    "MI": "102642"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8119",
+    "FL": "CLD2-95 -P9506R",
+    "EQ": "CLD2-AA8119",
+    "MP": "82364",
+    "MI": "102643"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8113",
+    "FL": "CLD2-95 -D9501A",
+    "EQ": "CLD2-AA8113",
+    "MP": "82365",
+    "MI": "102644"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8127",
+    "FL": "CLD2-95 -D9501A",
+    "EQ": "CLD2-AA8127",
+    "MP": "82366",
+    "MI": "102645"
+   },
+   {
+    "Plant": "CLD2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8115",
+    "FL": "CLD2-95 -D9501B",
+    "EQ": "CLD2-AA8115",
+    "MP": "82367",
+    "MI": "102646"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7101",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7101",
+    "MP": "82255",
+    "MI": "102334"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7102",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7102",
+    "MP": "82256",
+    "MI": "102335"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7103",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7103",
+    "MP": "82257",
+    "MI": "102336"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7104",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7104",
+    "MP": "82258",
+    "MI": "102337"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7105",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7105",
+    "MP": "82259",
+    "MI": "102338"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7106",
+    "FL": "HOT -27 -QMI_GD",
+    "EQ": "HOT-AA7106",
+    "MP": "82260",
+    "MI": "102339"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7107",
+    "FL": "HOT -28 -QMI_GD",
+    "EQ": "HOT-AA7107",
+    "MP": "82261",
+    "MI": "102340"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7108",
+    "FL": "HOT -28 -QMI_GD",
+    "EQ": "HOT-AA7108",
+    "MP": "82262",
+    "MI": "102341"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7109",
+    "FL": "HOT -28 -QMI_GD",
+    "EQ": "HOT-AA7109",
+    "MP": "82263",
+    "MI": "102342"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7110",
+    "FL": "HOT -28 -QMI_GD",
+    "EQ": "HOT-AA7110",
+    "MP": "82264",
+    "MI": "102343"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7111",
+    "FL": "HOT -88 -D8805B",
+    "EQ": "HOT-AA7111",
+    "MP": "82265",
+    "MI": "102344"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7112",
+    "FL": "HOT -28 -P2803R",
+    "EQ": "HOT-AA7112",
+    "MP": "82266",
+    "MI": "102345"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7114",
+    "FL": "HOT -31 -P3102R",
+    "EQ": "HOT-AA7114",
+    "MP": "82267",
+    "MI": "102346"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7115",
+    "FL": "HOT -32 -QMI_GD",
+    "EQ": "HOT-AA7115",
+    "MP": "82268",
+    "MI": "102347"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7116",
+    "FL": "HOT -32 -QMI_GD",
+    "EQ": "HOT-AA7116",
+    "MP": "82269",
+    "MI": "102348"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7117",
+    "FL": "HOT -32 -QMI_GD",
+    "EQ": "HOT-AA7117",
+    "MP": "82270",
+    "MI": "102549"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7118",
+    "FL": "HOT -32 -QMI_GD",
+    "EQ": "HOT-AA7118",
+    "MP": "82271",
+    "MI": "102550"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7119",
+    "FL": "HOT -32 -QMI_GD",
+    "EQ": "HOT-AA7119",
+    "MP": "82272",
+    "MI": "102551"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7129",
+    "FL": "HOT -35 -P3501A",
+    "EQ": "HOT-AA7129",
+    "MP": "82273",
+    "MI": "102552"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7130",
+    "FL": "HOT -46 -QMI_GD",
+    "EQ": "HOT-AA7130",
+    "MP": "82274",
+    "MI": "102553"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7131",
+    "FL": "HOT -46 -QMI_GD",
+    "EQ": "HOT-AA7131",
+    "MP": "82275",
+    "MI": "102554"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7132",
+    "FL": "HOT -46 -QMI_GD",
+    "EQ": "HOT-AA7132",
+    "MP": "82276",
+    "MI": "102555"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8116",
+    "FL": "HOT -88 -F8801",
+    "EQ": "HOT-AA8116",
+    "MP": "82277",
+    "MI": "102556"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8117",
+    "FL": "HOT -88 -D8804",
+    "EQ": "HOT-AA8117",
+    "MP": "82278",
+    "MI": "102557"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8118",
+    "FL": "HOT -88 -P8801",
+    "EQ": "HOT-AA8118",
+    "MP": "82279",
+    "MI": "102558"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7157",
+    "FL": "HOT -03 -QMI_GD",
+    "EQ": "HOT-AA7157",
+    "MP": "246821",
+    "MI": "278776"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7158",
+    "FL": "HOT -03 -QMI_GD",
+    "EQ": "HOT-AA7158",
+    "MP": "246822",
+    "MI": "278777"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7159",
+    "FL": "HOT -03 -QMI_GD",
+    "EQ": "HOT-AA7159",
+    "MP": "246823",
+    "MI": "278778"
+   },
+   {
+    "Plant": "HOT",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7199",
+    "FL": "HOT -31 -C3101",
+    "EQ": "HOT-AA7199",
+    "MP": "246824",
+    "MI": "278779"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8121",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8121",
+    "MP": "82382",
+    "MI": "102661"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8122",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8122",
+    "MP": "82383",
+    "MI": "102662"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8123",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8123",
+    "MP": "82384",
+    "MI": "102663"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8124",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8124",
+    "MP": "82385",
+    "MI": "102664"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8125",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8125",
+    "MP": "82386",
+    "MI": "102665"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8126",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8126",
+    "MP": "82387",
+    "MI": "102666"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8128",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA8128",
+    "MP": "82388",
+    "MI": "102667"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8129",
+    "FL": "UT4 -89 -E8901I",
+    "EQ": "UT4-AA8129",
+    "MP": "115731",
+    "MI": "143831"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA8130",
+    "FL": "UT4 -89 -E8901J",
+    "EQ": "UT4-AA8130",
+    "MP": "115732",
+    "MI": "143832"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7201",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA7201",
+    "MP": "125602",
+    "MI": "151004"
+   },
+   {
+    "Plant": "UT4",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7202",
+    "FL": "UT4 -89 -QMI_GD",
+    "EQ": "UT4-AA7202",
+    "MP": "125603",
+    "MI": "151005"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6601",
+    "FL": "BDE -66 -P6601",
+    "EQ": "BDE-AA6601",
+    "MP": "82368",
+    "MI": "102647"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6602",
+    "FL": "BDE -66 -P6602",
+    "EQ": "BDE-AA6602",
+    "MP": "82369",
+    "MI": "102648"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6603",
+    "FL": "BDE -66 -C6601",
+    "EQ": "BDE-AA6603",
+    "MP": "82370",
+    "MI": "102649"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6701",
+    "FL": "BDE -67 -P6701",
+    "EQ": "BDE-AA6701",
+    "MP": "82371",
+    "MI": "102650"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6801",
+    "FL": "BDE -68 -P6801",
+    "EQ": "BDE-AA6801",
+    "MP": "82372",
+    "MI": "102651"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6802",
+    "FL": "BDE -68 -P6802",
+    "EQ": "BDE-AA6802",
+    "MP": "82373",
+    "MI": "102652"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6803",
+    "FL": "BDE -68 -P6803",
+    "EQ": "BDE-AA6803",
+    "MP": "82374",
+    "MI": "102653"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6804",
+    "FL": "BDE -68 -P6804",
+    "EQ": "BDE-AA6804",
+    "MP": "82375",
+    "MI": "102654"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6902",
+    "FL": "BDE -69 -C6901",
+    "EQ": "BDE-AA6902",
+    "MP": "82376",
+    "MI": "102655"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6903",
+    "FL": "BDE -69 -QMI_GD",
+    "EQ": "BDE-AA6903",
+    "MP": "82377",
+    "MI": "102656"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6904",
+    "FL": "BDE -69 -QMI_GD",
+    "EQ": "BDE-AA6904",
+    "MP": "82378",
+    "MI": "102657"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6905",
+    "FL": "BDE -69 -QMI_GD",
+    "EQ": "BDE-AA6905",
+    "MP": "82379",
+    "MI": "102658"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6906",
+    "FL": "BDE -69 -D6911",
+    "EQ": "BDE-AA6906",
+    "MP": "82380",
+    "MI": "102659"
+   },
+   {
+    "Plant": "BDE",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA6901",
+    "FL": "BDE -69 -D6901",
+    "EQ": "BDE-AA6901",
+    "MP": "82381",
+    "MI": "102660"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7401",
+    "FL": "C42P-74 -K7401",
+    "EQ": "C42P-AA7401",
+    "MP": "115698",
+    "MI": "143798"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7402",
+    "FL": "C42P-74 -K7401",
+    "EQ": "C42P-AA7402",
+    "MP": "115699",
+    "MI": "143799"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7403",
+    "FL": "C42P-73 -P7305A",
+    "EQ": "C42P-AA7403",
+    "MP": "115700",
+    "MI": "143800"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7404",
+    "FL": "C42P-73 -P7304A",
+    "EQ": "C42P-AA7404",
+    "MP": "115701",
+    "MI": "143801"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7405",
+    "FL": "C42P-73 -P7303A",
+    "EQ": "C42P-AA7405",
+    "MP": "115702",
+    "MI": "143802"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7406",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-AA7406",
+    "MP": "115703",
+    "MI": "143803"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7407",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-AA7407",
+    "MP": "115704",
+    "MI": "143804"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7408",
+    "FL": "C42P-73 -P7302A",
+    "EQ": "C42P-AA7408",
+    "MP": "115705",
+    "MI": "143805"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7409",
+    "FL": "C42P-74 -F7401",
+    "EQ": "C42P-AA7409",
+    "MP": "115706",
+    "MI": "143806"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7410",
+    "FL": "C42P-73 -F7301",
+    "EQ": "C42P-AA7410",
+    "MP": "115707",
+    "MI": "143807"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7411",
+    "FL": "C42P-74 -C7401",
+    "EQ": "C42P-AA7411",
+    "MP": "115708",
+    "MI": "143808"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7412",
+    "FL": "C42P-74 -F7401",
+    "EQ": "C42P-AA7412",
+    "MP": "115709",
+    "MI": "143809"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7413",
+    "FL": "C42P-74 -P7401A",
+    "EQ": "C42P-AA7413",
+    "MP": "115710",
+    "MI": "143810"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7414",
+    "FL": "C42P-73 -P7301A",
+    "EQ": "C42P-AA7414",
+    "MP": "115711",
+    "MI": "143811"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7415",
+    "FL": "C42P-72 -P7201A",
+    "EQ": "C42P-AA7415",
+    "MP": "115722",
+    "MI": "143822"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7416",
+    "FL": "C42P-71 -D7102",
+    "EQ": "C42P-AA7416",
+    "MP": "115723",
+    "MI": "143823"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7417",
+    "FL": "C42P-71 -P7102A",
+    "EQ": "C42P-AA7417",
+    "MP": "115724",
+    "MI": "143824"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7418",
+    "FL": "C42P-71 -P7104A",
+    "EQ": "C42P-AA7418",
+    "MP": "115725",
+    "MI": "143825"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7419",
+    "FL": "C42P-71 -P7103A",
+    "EQ": "C42P-AA7419",
+    "MP": "115726",
+    "MI": "143826"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7420",
+    "FL": "C42P-71 -A7101A",
+    "EQ": "C42P-AA7420",
+    "MP": "115727",
+    "MI": "143827"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7421",
+    "FL": "C42P-71 -A7101A",
+    "EQ": "C42P-AA7421",
+    "MP": "115728",
+    "MI": "143828"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7422",
+    "FL": "C42P-71 -E7102",
+    "EQ": "C42P-AA7422",
+    "MP": "115729",
+    "MI": "143829"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7423",
+    "FL": "C42P-71 -T7101",
+    "EQ": "C42P-AA7423",
+    "MP": "115730",
+    "MI": "143830"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7433",
+    "FL": "C42P-71 -P7110A",
+    "EQ": "C42P-AA7433",
+    "MP": "115733",
+    "MI": "143833"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7434",
+    "FL": "C42P-74 -E7414",
+    "EQ": "C42P-AA7434",
+    "MP": "115734",
+    "MI": "143834"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AA7435",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-AA7435",
+    "MP": "115735",
+    "MI": "143835"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AH7401G1",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-AH7401G1",
+    "MP": "115736",
+    "MI": "143836"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AH7401G2",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-AH7401G2",
+    "MP": "115737",
+    "MI": "143837"
+   },
+   {
+    "Plant": "PRP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "FGS7401",
+    "FL": "C42P-74 -QMI_GD",
+    "EQ": "C42P-FGS7401"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47102",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47102",
+    "MP": "106366",
+    "MI": "132112"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47103",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47103",
+    "MP": "106367",
+    "MI": "132113"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47104",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47104",
+    "MP": "106368",
+    "MI": "132114"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47105",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47105",
+    "MP": "106369",
+    "MI": "132115"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47306",
+    "FL": "AB  -47 -QMI_FD",
+    "EQ": "AB-AIA47306",
+    "MP": "106370",
+    "MI": "132116"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47307",
+    "FL": "AB  -47 -QMI_FD",
+    "EQ": "AB-AIA47307",
+    "MP": "106371",
+    "MI": "132117"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47301",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47301",
+    "MP": "106372",
+    "MI": "132118"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47302",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47302",
+    "MP": "106373",
+    "MI": "132119"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47303",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47303",
+    "MP": "106374",
+    "MI": "132120"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47304",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47304",
+    "MP": "106375",
+    "MI": "132121"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47305",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47305",
+    "MP": "106376",
+    "MI": "132122"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47108",
+    "FL": "AB  -47 -QMI_FD",
+    "EQ": "AB-AIA47108",
+    "MP": "106377",
+    "MI": "132123"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47109",
+    "FL": "AB  -47 -QMI_FD",
+    "EQ": "AB-AIA47109",
+    "MP": "106378",
+    "MI": "132124"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47308",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47308",
+    "MP": "106379",
+    "MI": "132125"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47101",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47101",
+    "MP": "106434",
+    "MI": "131395"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47201",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47201",
+    "MP": "246802",
+    "MI": "278948"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47202",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47202",
+    "MP": "246803",
+    "MI": "278969"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47106",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47106"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA47107",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-AIA47107"
+   },
+   {
+    "Plant": "ACB",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "FGD_SYSTEM",
+    "FL": "AB  -47 -QMI_GD",
+    "EQ": "AB-FGD_SYSTEM"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0001",
+    "FL": "BTX -100-01B001",
+    "EQ": "BTX-AIGA0001",
+    "MP": "11663",
+    "MI": "11663"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0002",
+    "FL": "BTX -100-01B002",
+    "EQ": "BTX-AIGA0002",
+    "MP": "11664",
+    "MI": "11664"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0003",
+    "FL": "BTX -300-03B001",
+    "EQ": "BTX-AIGA0003",
+    "MP": "11665",
+    "MI": "11665"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0004",
+    "FL": "BTX -100-01P002B",
+    "EQ": "BTX-AIGA0004",
+    "MP": "11666",
+    "MI": "11666"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0005",
+    "FL": "BTX -300-03C002",
+    "EQ": "BTX-AIGA0005",
+    "MP": "11667",
+    "MI": "11667"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0006",
+    "FL": "BTX -200-02E003",
+    "EQ": "BTX-AIGA0006",
+    "MP": "11668",
+    "MI": "11668"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0007",
+    "FL": "BTX -200-02P001B",
+    "EQ": "BTX-AIGA0007",
+    "MP": "11669",
+    "MI": "11669"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0008",
+    "FL": "BTX -400-04D003",
+    "EQ": "BTX-AIGA0008",
+    "MP": "11670",
+    "MI": "11670"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0009",
+    "FL": "BTX -400-04E003",
+    "EQ": "BTX-AIGA0009",
+    "MP": "11671",
+    "MI": "11671"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0010",
+    "FL": "BTX -400-04P001B",
+    "EQ": "BTX-AIGA0010",
+    "MP": "11672",
+    "MI": "11672"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0011",
+    "FL": "BTX -400-04E011",
+    "EQ": "BTX-AIGA0011",
+    "MP": "11673",
+    "MI": "11673"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0012",
+    "FL": "BTX -200-02P006B",
+    "EQ": "BTX-AIGA0012",
+    "MP": "11674",
+    "MI": "11674"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0013",
+    "FL": "BTX -200-02E012",
+    "EQ": "BTX-AIGA0013",
+    "MP": "11675",
+    "MI": "11675"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0014",
+    "FL": "BTX -200-QMI_GD",
+    "EQ": "BTX-AIGA0014",
+    "MP": "11676",
+    "MI": "11676"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0015",
+    "FL": "BTX -300-03E007",
+    "EQ": "BTX-AIGA0015",
+    "MP": "11677",
+    "MI": "11677"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0016",
+    "FL": "BTX -300-03P001A",
+    "EQ": "BTX-AIGA0016",
+    "MP": "11678",
+    "MI": "11678"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0018",
+    "FL": "BTX -500-05D003",
+    "EQ": "BTX-AIGA0018",
+    "MP": "11680",
+    "MI": "11680"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0019",
+    "FL": "BTX -400-04D002",
+    "EQ": "BTX-AIGA0019",
+    "MP": "11681",
+    "MI": "11681"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0020",
+    "FL": "BTX -300-03D003",
+    "EQ": "BTX-AIGA0020",
+    "MP": "11682",
+    "MI": "11682"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0021",
+    "FL": "BTX -300-03E006",
+    "EQ": "BTX-AIGA0021",
+    "MP": "11683",
+    "MI": "11683"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0022",
+    "FL": "BTX -200-02C005",
+    "EQ": "BTX-AIGA0022",
+    "MP": "11684",
+    "MI": "11684"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0023",
+    "FL": "BTX -200-02C005",
+    "EQ": "BTX-AIGA0023",
+    "MP": "11685",
+    "MI": "11685"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0024",
+    "FL": "BTX -400-04C005",
+    "EQ": "BTX-AIGA0024",
+    "MP": "11686",
+    "MI": "11686"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0025",
+    "FL": "BTX -400-04C005",
+    "EQ": "BTX-AIGA0025",
+    "MP": "11687",
+    "MI": "11687"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0026",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0026",
+    "MP": "11688",
+    "MI": "11688"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0027",
+    "FL": "BTX -100-01E003",
+    "EQ": "BTX-AIGA0027",
+    "MP": "11689",
+    "MI": "11689"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0028",
+    "FL": "BTX -400-04E002",
+    "EQ": "BTX-AIGA0028",
+    "MP": "11690",
+    "MI": "11690"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0029",
+    "FL": "BTX -400-04E009",
+    "EQ": "BTX-AIGA0029",
+    "MP": "11691",
+    "MI": "11691"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0030",
+    "FL": "BTX -600-06T004",
+    "EQ": "BTX-AIGA0030",
+    "MP": "11692",
+    "MI": "11692"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0031",
+    "FL": "BTX -600-06T008",
+    "EQ": "BTX-AIGA0031",
+    "MP": "11693",
+    "MI": "11693"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0032",
+    "FL": "BTX -600-06T009",
+    "EQ": "BTX-AIGA0032",
+    "MP": "11694",
+    "MI": "11694"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0033",
+    "FL": "BTX -600-06T010",
+    "EQ": "BTX-AIGA0033",
+    "MP": "11695",
+    "MI": "11695"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0034",
+    "FL": "BTX -600-06T011",
+    "EQ": "BTX-AIGA0034",
+    "MP": "11696",
+    "MI": "11696"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0035",
+    "FL": "BTX -600-06T002",
+    "EQ": "BTX-AIGA0035",
+    "MP": "11697",
+    "MI": "11697"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0036",
+    "FL": "BTX -600-06T005",
+    "EQ": "BTX-AIGA0036",
+    "MP": "11698",
+    "MI": "11698"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0037",
+    "FL": "BTX -600-06T019",
+    "EQ": "BTX-AIGA0037",
+    "MP": "11699",
+    "MI": "11699"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0038",
+    "FL": "BTX -600-06T001",
+    "EQ": "BTX-AIGA0038",
+    "MP": "11700",
+    "MI": "11700"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0039",
+    "FL": "BTX -600-06T016",
+    "EQ": "BTX-AIGA0039",
+    "MP": "11701",
+    "MI": "11701"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0040",
+    "FL": "BTX -600-06T016",
+    "EQ": "BTX-AIGA0040",
+    "MP": "11702",
+    "MI": "11702"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0041",
+    "FL": "BTX -600-06T006",
+    "EQ": "BTX-AIGA0041",
+    "MP": "11703",
+    "MI": "11703"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0042",
+    "FL": "BTX -600-06T017",
+    "EQ": "BTX-AIGA0042",
+    "MP": "11704",
+    "MI": "11704"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0043",
+    "FL": "BTX -600-06T018",
+    "EQ": "BTX-AIGA0043",
+    "MP": "11705",
+    "MI": "11705"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0044",
+    "FL": "BTX -600-06T013A",
+    "EQ": "BTX-AIGA0044",
+    "MP": "11706",
+    "MI": "11706"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0045",
+    "FL": "BTX -600-06T014B",
+    "EQ": "BTX-AIGA0045",
+    "MP": "11707",
+    "MI": "11707"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0046",
+    "FL": "BTX -600-06T015",
+    "EQ": "BTX-AIGA0046",
+    "MP": "11708",
+    "MI": "11708"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0047",
+    "FL": "BTX -600-06T012B",
+    "EQ": "BTX-AIGA0047",
+    "MP": "11709",
+    "MI": "11709"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0048",
+    "FL": "BTX -600-81T001",
+    "EQ": "BTX-AIGA0048",
+    "MP": "11710",
+    "MI": "11710"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0049",
+    "FL": "BTX -600-06T014A",
+    "EQ": "BTX-AIGA0049",
+    "MP": "11711",
+    "MI": "11711"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0050",
+    "FL": "BTX -600-06P020A",
+    "EQ": "BTX-AIGA0050",
+    "MP": "11712",
+    "MI": "11712"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0051",
+    "FL": "BTX -600-06T002",
+    "EQ": "BTX-AIGA0051",
+    "MP": "11713",
+    "MI": "11713"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0052",
+    "FL": "BTX -600-06T002",
+    "EQ": "BTX-AIGA0052",
+    "MP": "11714",
+    "MI": "11714"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0053",
+    "FL": "BTX -600-06T018",
+    "EQ": "BTX-AIGA0053",
+    "MP": "11715",
+    "MI": "11715"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0054",
+    "FL": "BTX -600-06T019",
+    "EQ": "BTX-AIGA0054",
+    "MP": "11716",
+    "MI": "11716"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0055",
+    "FL": "BTX -600-06T012A",
+    "EQ": "BTX-AIGA0055",
+    "MP": "11717",
+    "MI": "11717"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0056",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0056",
+    "MP": "11718",
+    "MI": "11718"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0057",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0057",
+    "MP": "11719",
+    "MI": "11719"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0058",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0058",
+    "MP": "11720",
+    "MI": "11720"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0059",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0059",
+    "MP": "11721",
+    "MI": "11721"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0060",
+    "FL": "BTX -500-05D005",
+    "EQ": "BTX-AIGA0060",
+    "MP": "11722",
+    "MI": "11722"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0061",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0061",
+    "MP": "11723",
+    "MI": "11723"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0062",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0062",
+    "MP": "11724",
+    "MI": "11724"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0063",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0063",
+    "MP": "11725",
+    "MI": "11725"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0064",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0064",
+    "MP": "11726",
+    "MI": "11726"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0065",
+    "FL": "BTX -600-06T017",
+    "EQ": "BTX-AIGA0065",
+    "MP": "82491",
+    "MI": "102770"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0066",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0066",
+    "MP": "82492",
+    "MI": "102771"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0067",
+    "FL": "BTX -700-QMI_GD",
+    "EQ": "BTX-AIGA0067",
+    "MP": "82493",
+    "MI": "102772"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0068",
+    "FL": "BTX -700-QMI_GD",
+    "EQ": "BTX-AIGA0068",
+    "MP": "247170",
+    "MI": "279316"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGA0017",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-AIGA0017",
+    "MP": "247168",
+    "MI": "279315"
+   },
+   {
+    "Plant": "BTX",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "BTX -100-QMI_GD",
+    "EQ": "BTX-GD_SYSTEM"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00051",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00051",
+    "MP": "6778",
+    "MI": "6778"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00052",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00052",
+    "MP": "6779",
+    "MI": "6779"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00053",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00053",
+    "MP": "6780",
+    "MI": "6780"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00054",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00054",
+    "MP": "6781",
+    "MI": "6781"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00055",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00055",
+    "MP": "6782",
+    "MI": "6782"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00058",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00058",
+    "MP": "6783",
+    "MI": "6783"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00059",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00059",
+    "MP": "6784",
+    "MI": "6784"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00060",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA00060",
+    "MP": "6785",
+    "MI": "6785"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA022101",
+    "FL": "ABS1-02 -02R001H",
+    "EQ": "ABS1-AIA022101",
+    "MP": "6786",
+    "MI": "6786"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA022102",
+    "FL": "ABS1-02 -02R001I",
+    "EQ": "ABS1-AIA022102",
+    "MP": "6787",
+    "MI": "6787"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA022103",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA022103",
+    "MP": "6788",
+    "MI": "6788"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00056",
+    "FL": "ABS1-03 -QMI_GD",
+    "EQ": "ABS1-AIA00056",
+    "MP": "6956",
+    "MI": "6956"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00057",
+    "FL": "ABS1-03 -QMI_GD",
+    "EQ": "ABS1-AIA00057",
+    "MP": "6957",
+    "MI": "6957"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA01",
+    "FL": "ABS1-02 -02D013B",
+    "EQ": "ABS1-AIA01",
+    "MP": "246804",
+    "MI": "278970"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA02",
+    "FL": "ABS1-02 -02D012B",
+    "EQ": "ABS1-AIA02",
+    "MP": "246805",
+    "MI": "278971"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA03",
+    "FL": "ABS1-02 -02D011B",
+    "EQ": "ABS1-AIA03",
+    "MP": "246806",
+    "MI": "278972"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA04",
+    "FL": "ABS1-02 -02R001G",
+    "EQ": "ABS1-AIA04",
+    "MP": "246807",
+    "MI": "278973"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA06",
+    "FL": "ABS1-02 -02R001B",
+    "EQ": "ABS1-AIA06",
+    "MP": "246808",
+    "MI": "278974"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA08",
+    "FL": "ABS1-02 -02D031B",
+    "EQ": "ABS1-AIA08",
+    "MP": "246809",
+    "MI": "278975"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA09",
+    "FL": "ABS1-02 -QMI_GD",
+    "EQ": "ABS1-AIA09",
+    "MP": "246810",
+    "MI": "278976"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA11",
+    "FL": "ABS1-02 -02P031C",
+    "EQ": "ABS1-AIA11",
+    "MP": "246811",
+    "MI": "278977"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA05",
+    "FL": "ABS1-03 -03R001C",
+    "EQ": "ABS1-AIA05",
+    "MP": "246812",
+    "MI": "278978"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA07",
+    "FL": "ABS1-03 -03R001D",
+    "EQ": "ABS1-AIA07",
+    "MP": "246813",
+    "MI": "278979"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA10",
+    "FL": "ABS1-03 -QMI_GD",
+    "EQ": "ABS1-AIA10",
+    "MP": "246814",
+    "MI": "278980"
+   },
+   {
+    "Plant": "ABS1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "ABS1-00 -QMI_GD",
+    "EQ": "ABS1-GD_SYSTEM"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT01005",
+    "FL": "ABS3-01 -QMI_GD",
+    "EQ": "ABS3-AIAT01005",
+    "MP": "116345",
+    "MI": "144560"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT01006",
+    "FL": "ABS3-01 -01T065",
+    "EQ": "ABS3-AIAT01006",
+    "MP": "116346",
+    "MI": "144561"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT01007",
+    "FL": "ABS3-01 -01P068",
+    "EQ": "ABS3-AIAT01007",
+    "MP": "116347",
+    "MI": "144562"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT03001",
+    "FL": "ABS3-02 -02R001J",
+    "EQ": "ABS3-AIAT03001",
+    "MP": "116348",
+    "MI": "144563"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT03003",
+    "FL": "ABS3-02 -02R001K",
+    "EQ": "ABS3-AIAT03003",
+    "MP": "116349",
+    "MI": "144564"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT03005",
+    "FL": "ABS3-03 -03R001G",
+    "EQ": "ABS3-AIAT03005",
+    "MP": "116350",
+    "MI": "144565"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT03002",
+    "FL": "ABS3-03 -03R001H",
+    "EQ": "ABS3-AIAT03002",
+    "MP": "116351",
+    "MI": "144411"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI04701A",
+    "FL": "ABS3-04 -QMI_GD",
+    "EQ": "ABS3-AI040701A",
+    "MP": "116353",
+    "MI": "144413"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI04701B",
+    "FL": "ABS3-04 -QMI_GD",
+    "EQ": "ABS3-AI040701B",
+    "MP": "116354",
+    "MI": "144414"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAT03004",
+    "FL": "ABS3-03 -QMI_GD",
+    "EQ": "ABS3-AIAT03004",
+    "MP": "116355",
+    "MI": "144530"
+   },
+   {
+    "Plant": "ABS3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "ABS3-00 -QMI_GD",
+    "EQ": "ABS3-GD_SYSTEM"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA20001",
+    "FL": "SAN1-20 -QMI_GD",
+    "EQ": "SAN1-AIA20001",
+    "MP": "19296",
+    "MI": "19296"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA20002",
+    "FL": "SAN1-20 -QMI_GD",
+    "EQ": "SAN1-AIA20002",
+    "MP": "19298",
+    "MI": "19298"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA20003",
+    "FL": "SAN1-20 -QMI_GD",
+    "EQ": "SAN1-AIA20003",
+    "MP": "19300",
+    "MI": "19300"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA210401",
+    "FL": "SAN1-21 -QMI_GD",
+    "EQ": "SAN1-AIA210401",
+    "MP": "19355",
+    "MI": "19355"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA00495",
+    "FL": "SAN1-22 -QMI_GD",
+    "EQ": "SAN1-AIA00495",
+    "MP": "19475",
+    "MI": "19475"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA090102",
+    "FL": "SAN1-22 -QMI_GD",
+    "EQ": "SAN1-AIA090102",
+    "MP": "19477",
+    "MI": "19477"
+   },
+   {
+    "Plant": "SAN2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA30001",
+    "FL": "SAN2-30 -QMI_GD",
+    "EQ": "SAN2-AIA30001",
+    "MP": "20069",
+    "MI": "20069"
+   },
+   {
+    "Plant": "SAN2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA30002",
+    "FL": "SAN2-30 -QMI_GD",
+    "EQ": "SAN2-AIA30002",
+    "MP": "20071",
+    "MI": "20071"
+   },
+   {
+    "Plant": "SAN2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA30003",
+    "FL": "SAN2-30 -QMI_GD",
+    "EQ": "SAN2-AIA30003",
+    "MP": "20073",
+    "MI": "20073"
+   },
+   {
+    "Plant": "SAN2",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIA30004",
+    "FL": "SAN2-30 -QMI_GD",
+    "EQ": "SAN2-AIA30004",
+    "MP": "20074",
+    "MI": "20074"
+   },
+   {
+    "Plant": "SAN1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "SAN1-00 -QMI_GD",
+    "EQ": "SAN1-GD_SYSTEM"
+   },
+   {
+    "Plant": "SAN3",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD400001",
+    "FL": "SAN3-40 -QMI_GD",
+    "EQ": "SAN3-AIGD400001",
+    "MP": "116335",
+    "MI": "144550"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD410001",
+    "FL": "SAN3-41 -QMI_GD",
+    "EQ": "SAN3-AIGD410001",
+    "MP": "116336",
+    "MI": "144551"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD430001",
+    "FL": "SAN3-43 -QMI_GD",
+    "EQ": "SAN3-AIGD430001",
+    "MP": "116337",
+    "MI": "144552"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD440001",
+    "FL": "SAN3-44 -QMI_GD",
+    "EQ": "SAN3-AIGD440001",
+    "MP": "116338",
+    "MI": "144553"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD460001",
+    "FL": "SAN3-46 -46D601",
+    "EQ": "SAN3-AIGD460001",
+    "MP": "116339",
+    "MI": "144554"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIGD480001",
+    "FL": "SAN3-48 -48A801",
+    "EQ": "SAN3-AIGD480001",
+    "MP": "116340",
+    "MI": "144555"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "SAN3-00 -QMI_GD",
+    "EQ": "SAN3-GD_SYSTEM"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH3001",
+    "FL": "EPS -03 -03T019",
+    "EQ": "EPS-AIAH3001",
+    "MP": "15836",
+    "MI": "15836"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0004",
+    "FL": "EPS -03 -QMI_GD",
+    "EQ": "EPS-AIAH0004",
+    "MP": "15841",
+    "MI": "15841"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0005",
+    "FL": "EPS -03 -03D001",
+    "EQ": "EPS-AIAH0005",
+    "MP": "15842",
+    "MI": "15842"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0006",
+    "FL": "EPS -03 -03P001A",
+    "EQ": "EPS-AIAH0006",
+    "MP": "15843",
+    "MI": "15843"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0002",
+    "FL": "EPS -04 -QMI_GD",
+    "EQ": "EPS-AIAH0002",
+    "MP": "16405",
+    "MI": "16405"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0003",
+    "FL": "EPS -03 -03D008",
+    "EQ": "EPS-AIAH0003",
+    "MP": "16406",
+    "MI": "16406"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0011",
+    "FL": "EPS -06 -QMI_GD",
+    "EQ": "EPS-AIAH0011",
+    "MP": "16554",
+    "MI": "16554"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0012",
+    "FL": "EPS -06 -QMI_GD",
+    "EQ": "EPS-AIAH0012",
+    "MP": "16555",
+    "MI": "16555"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0013",
+    "FL": "EPS -06 -QMI_GD",
+    "EQ": "EPS-AIAH0013",
+    "MP": "16556",
+    "MI": "16556"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0021",
+    "FL": "EPS -06 -06H003B",
+    "EQ": "EPS-AIAH0021",
+    "MP": "16557",
+    "MI": "16557"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0022",
+    "FL": "EPS -06 -06H003A",
+    "EQ": "EPS-AIAH0022",
+    "MP": "16558",
+    "MI": "16558"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0023",
+    "FL": "EPS -07 -QMI_GD",
+    "EQ": "EPS-AIAH0023",
+    "MP": "16987",
+    "MI": "16987"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0001",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAH0001",
+    "MP": "17304",
+    "MI": "17304"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH01",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH01",
+    "MP": "82485",
+    "MI": "102764"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH02",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH02",
+    "MP": "82486",
+    "MI": "102765"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH03",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH03",
+    "MP": "82487",
+    "MI": "102766"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH04",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH04",
+    "MP": "82488",
+    "MI": "102767"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH05",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH05",
+    "MP": "82489",
+    "MI": "102768"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAHWH06",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAHWH06",
+    "MP": "82490",
+    "MI": "102769"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIAH0061",
+    "FL": "EPS -10 -QMI_GD",
+    "EQ": "EPS-AIAH0061",
+    "MP": "246816",
+    "MI": "246816"
+   },
+   {
+    "Plant": "EPS",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "EPS -00-QMI_GD",
+    "EQ": "EPS-GD_SYSTEM"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14057",
+    "FL": "TF1 -14 -14A001A",
+    "EQ": "TF1-AIZA14057",
+    "MP": "82389",
+    "MI": "102668"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14058",
+    "FL": "TF1 -14 -14D001",
+    "EQ": "TF1-AIZA14058",
+    "MP": "82390",
+    "MI": "102669"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14059",
+    "FL": "TF1 -14 -14D001",
+    "EQ": "TF1-AIZA14059",
+    "MP": "82391",
+    "MI": "102670"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14055",
+    "FL": "TF1 -14 -14P001C",
+    "EQ": "TF1-AIZA14055",
+    "MP": "82392",
+    "MI": "102671"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14056",
+    "FL": "TF1 -14 -14P001D",
+    "EQ": "TF1-AIZA14056",
+    "MP": "82393",
+    "MI": "102672"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14051",
+    "FL": "TF1 -14 -14T001A",
+    "EQ": "TF1-AIZA14051",
+    "MP": "82394",
+    "MI": "102673"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14052",
+    "FL": "TF1 -14 -14T001A",
+    "EQ": "TF1-AIZA14052",
+    "MP": "82395",
+    "MI": "102674"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14053",
+    "FL": "TF1 -14 -14T001B",
+    "EQ": "TF1-AIZA14053",
+    "MP": "82396",
+    "MI": "102675"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14054",
+    "FL": "TF1 -14 -14T001B",
+    "EQ": "TF1-AIZA14054",
+    "MP": "82397",
+    "MI": "102676"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14061",
+    "FL": "TF1 -14 -14T005A",
+    "EQ": "TF1-AIZA14061",
+    "MP": "82398",
+    "MI": "102677"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14062",
+    "FL": "TF1 -14 -14T005A",
+    "EQ": "TF1-AIZA14062",
+    "MP": "82399",
+    "MI": "102678"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14063",
+    "FL": "TF1 -14 -14T005B",
+    "EQ": "TF1-AIZA14063",
+    "MP": "82400",
+    "MI": "102679"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14064",
+    "FL": "TF1 -14 -14T005B",
+    "EQ": "TF1-AIZA14064",
+    "MP": "82401",
+    "MI": "102680"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA2153",
+    "FL": "TF1 -21 -QMI_GD",
+    "EQ": "TF1-AIZA2153",
+    "MP": "82402",
+    "MI": "102681"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA2152",
+    "FL": "TF1 -21 -QMI_GD",
+    "EQ": "TF1-AIZA2152",
+    "MP": "82404",
+    "MI": "102683"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31156",
+    "FL": "TF1 -31 -31A001",
+    "EQ": "TF1-AIZA31156",
+    "MP": "82405",
+    "MI": "102684"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31155",
+    "FL": "TF1 -31 -31P001",
+    "EQ": "TF1-AIZA31155",
+    "MP": "82406",
+    "MI": "102685"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31151",
+    "FL": "TF1 -31 -31T001",
+    "EQ": "TF1-AIZA31151",
+    "MP": "82407",
+    "MI": "102686"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31152",
+    "FL": "TF1 -31 -31T001",
+    "EQ": "TF1-AIZA31152",
+    "MP": "82408",
+    "MI": "102687"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31153",
+    "FL": "TF1 -31 -31T001",
+    "EQ": "TF1-AIZA31153",
+    "MP": "82409",
+    "MI": "102688"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA31154",
+    "FL": "TF1 -31 -31T001",
+    "EQ": "TF1-AIZA31154",
+    "MP": "82410",
+    "MI": "102689"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38301",
+    "FL": "TF1 -38 -38.202B",
+    "EQ": "TF1-AIZA38301",
+    "MP": "82411",
+    "MI": "102690"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38302",
+    "FL": "TF1 -38 -38.220C",
+    "EQ": "TF1-AIZA38302",
+    "MP": "82412",
+    "MI": "102691"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38303",
+    "FL": "TF1 -38 -38.220D",
+    "EQ": "TF1-AIZA38303",
+    "MP": "82413",
+    "MI": "102692"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38305",
+    "FL": "TF1 -38 -38.203C",
+    "EQ": "TF1-AIZA38305",
+    "MP": "82414",
+    "MI": "102693"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38306",
+    "FL": "TF1 -38 -38.203D",
+    "EQ": "TF1-AIZA38306",
+    "MP": "82415",
+    "MI": "102694"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38304",
+    "FL": "TF1 -38 -38.222B",
+    "EQ": "TF1-AIZA38304",
+    "MP": "82416",
+    "MI": "102695"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39501",
+    "FL": "TF1 -39 -39.001",
+    "EQ": "TF1-AIZA39501",
+    "MP": "82417",
+    "MI": "102696"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39502",
+    "FL": "TF1 -39 -39.002",
+    "EQ": "TF1-AIZA39502",
+    "MP": "82418",
+    "MI": "102697"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39503",
+    "FL": "TF1 -39 -39.003",
+    "EQ": "TF1-AIZA39503",
+    "MP": "82419",
+    "MI": "102698"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39504",
+    "FL": "TF1 -39 -39.004",
+    "EQ": "TF1-AIZA39504",
+    "MP": "82420",
+    "MI": "102699"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39505",
+    "FL": "TF1 -39 -39.005A",
+    "EQ": "TF1-AIZA39505",
+    "MP": "82421",
+    "MI": "102700"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39506",
+    "FL": "TF1 -39 -39.005B",
+    "EQ": "TF1-AIZA39506",
+    "MP": "82422",
+    "MI": "102701"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39508",
+    "FL": "TF1 -39 -39.007A",
+    "EQ": "TF1-AIZA39508",
+    "MP": "82423",
+    "MI": "102702"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39509",
+    "FL": "TF1 -39 -39.008B",
+    "EQ": "TF1-AIZA39509",
+    "MP": "82424",
+    "MI": "102703"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39507",
+    "FL": "TF1 -39 -39.014A",
+    "EQ": "TF1-AIZA39507",
+    "MP": "82425",
+    "MI": "102704"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39510",
+    "FL": "TF1 -39 -39.016",
+    "EQ": "TF1-AIZA39510",
+    "MP": "82426",
+    "MI": "102705"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA39511",
+    "FL": "TF1 -39 -39.700",
+    "EQ": "TF1-AIZA39511",
+    "MP": "82427",
+    "MI": "102706"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451201",
+    "FL": "TF1 -45 -45C010",
+    "EQ": "TF1-AIZA451201",
+    "MP": "82433",
+    "MI": "102712"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451004",
+    "FL": "TF1 -45 -45E001A",
+    "EQ": "TF1-AIZA451004",
+    "MP": "82434",
+    "MI": "102713"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450905",
+    "FL": "TF1 -45 -45E003",
+    "EQ": "TF1-AIZA450905",
+    "MP": "82435",
+    "MI": "102714"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451502",
+    "FL": "TF1 -45 -45E050",
+    "EQ": "TF1-AIZA451502",
+    "MP": "82436",
+    "MI": "102715"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451501",
+    "FL": "TF1 -45 -45E052",
+    "EQ": "TF1-AIZA451501",
+    "MP": "82437",
+    "MI": "102716"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451001",
+    "FL": "TF1 -45 -45K001A",
+    "EQ": "TF1-AIZA451001",
+    "MP": "82438",
+    "MI": "102717"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451002",
+    "FL": "TF1 -45 -45K001B",
+    "EQ": "TF1-AIZA451002",
+    "MP": "82439",
+    "MI": "102718"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451200",
+    "FL": "TF1 -45 -45K001B",
+    "EQ": "TF1-AIZA451200",
+    "MP": "82440",
+    "MI": "102719"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451003",
+    "FL": "TF1 -45 -45K010A",
+    "EQ": "TF1-AIZA451003",
+    "MP": "82441",
+    "MI": "102720"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451203",
+    "FL": "TF1 -45 -45K010B",
+    "EQ": "TF1-AIZA451203",
+    "MP": "82442",
+    "MI": "102721"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450902",
+    "FL": "TF1 -45 -45P001A",
+    "EQ": "TF1-AIZA450902",
+    "MP": "82443",
+    "MI": "102722"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450903",
+    "FL": "TF1 -45 -45P001A",
+    "EQ": "TF1-AIZA450903",
+    "MP": "82444",
+    "MI": "102723"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450904",
+    "FL": "TF1 -45 -45P001A",
+    "EQ": "TF1-AIZA450904",
+    "MP": "82445",
+    "MI": "102724"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451103",
+    "FL": "TF1 -45 -45P002A",
+    "EQ": "TF1-AIZA451103",
+    "MP": "82446",
+    "MI": "102725"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451104",
+    "FL": "TF1 -45 -45P002B",
+    "EQ": "TF1-AIZA451104",
+    "MP": "82447",
+    "MI": "102726"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451105",
+    "FL": "TF1 -45 -45P004",
+    "EQ": "TF1-AIZA451105",
+    "MP": "82448",
+    "MI": "102727"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450801",
+    "FL": "TF1 -45 -45P005A",
+    "EQ": "TF1-AIZA450801",
+    "MP": "82449",
+    "MI": "102728"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450802",
+    "FL": "TF1 -45 -45P005B",
+    "EQ": "TF1-AIZA450802",
+    "MP": "82450",
+    "MI": "102729"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450803",
+    "FL": "TF1 -45 -45P005C",
+    "EQ": "TF1-AIZA450803",
+    "MP": "82451",
+    "MI": "102730"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450804",
+    "FL": "TF1 -45 -45P005D",
+    "EQ": "TF1-AIZA450804",
+    "MP": "82452",
+    "MI": "102731"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451202",
+    "FL": "TF1 -45 -45P011",
+    "EQ": "TF1-AIZA451202",
+    "MP": "82453",
+    "MI": "102732"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA450901",
+    "FL": "TF1 -45 -45T001",
+    "EQ": "TF1-AIZA450901",
+    "MP": "82454",
+    "MI": "102733"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451101",
+    "FL": "TF1 -45 -45T002",
+    "EQ": "TF1-AIZA451101",
+    "MP": "82456",
+    "MI": "102735"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA451102",
+    "FL": "TF1 -45 -45T003",
+    "EQ": "TF1-AIZA451102",
+    "MP": "82457",
+    "MI": "102736"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA903601",
+    "FL": "TF1 -60 -60D092",
+    "EQ": "TF1-AIZA903601",
+    "MP": "82458",
+    "MI": "102737"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA695002",
+    "FL": "TF1 -69 -69D101",
+    "EQ": "TF1-AIZA695002",
+    "MP": "82459",
+    "MI": "102738"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA695001",
+    "FL": "TF1 -69 -69D101",
+    "EQ": "TF1-AIZA695001",
+    "MP": "82460",
+    "MI": "102739"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800304",
+    "FL": "TF1 -80 -80E001A",
+    "EQ": "TF1-AIZA800304",
+    "MP": "82461",
+    "MI": "102740"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800201",
+    "FL": "TF1 -80 -80E004",
+    "EQ": "TF1-AIZA800201",
+    "MP": "82462",
+    "MI": "102741"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800301",
+    "FL": "TF1 -80 -80K001A",
+    "EQ": "TF1-AIZA800301",
+    "MP": "82463",
+    "MI": "102742"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800302",
+    "FL": "TF1 -80 -80K001B",
+    "EQ": "TF1-AIZA800302",
+    "MP": "82464",
+    "MI": "102743"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800303",
+    "FL": "TF1 -80 -80K002",
+    "EQ": "TF1-AIZA800303",
+    "MP": "82465",
+    "MI": "102744"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800131",
+    "FL": "TF1 -80 -80P001A",
+    "EQ": "TF1-AIZA800131",
+    "MP": "82466",
+    "MI": "102745"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800141",
+    "FL": "TF1 -80 -80P001B",
+    "EQ": "TF1-AIZA800141",
+    "MP": "82467",
+    "MI": "102746"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800502",
+    "FL": "TF1 -80 -80P002A",
+    "EQ": "TF1-AIZA800502",
+    "MP": "82468",
+    "MI": "102747"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800503",
+    "FL": "TF1 -80 -80P030",
+    "EQ": "TF1-AIZA800503",
+    "MP": "82469",
+    "MI": "102748"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800111",
+    "FL": "TF1 -80 -80T001A",
+    "EQ": "TF1-AIZA800111",
+    "MP": "82470",
+    "MI": "102749"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800121",
+    "FL": "TF1 -80 -80T001B",
+    "EQ": "TF1-AIZA800121",
+    "MP": "82471",
+    "MI": "102750"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800151",
+    "FL": "TF1 -80 -80T001B",
+    "EQ": "TF1-AIZA800151",
+    "MP": "82472",
+    "MI": "102751"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800501",
+    "FL": "TF1 -80 -80T002",
+    "EQ": "TF1-AIZA800501",
+    "MP": "82473",
+    "MI": "102752"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA452901",
+    "FL": "TF1 -45 -QMI_GD",
+    "EQ": "TF1-AIZA452901",
+    "MP": "89409",
+    "MI": "112177"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA452902",
+    "FL": "TF1 -45 -QMI_GD",
+    "EQ": "TF1-AIZA452902",
+    "MP": "89410",
+    "MI": "112178"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA800161",
+    "FL": "TF1 -80 -QMI_GD",
+    "EQ": "TF1-AIZA800161",
+    "MP": "89411",
+    "MI": "112179"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA3011",
+    "FL": "TF1 -40 -D301",
+    "EQ": "TF1-AIZA3011",
+    "MP": "89412",
+    "MI": "112180"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA3012",
+    "FL": "TF1 -40 -D301",
+    "EQ": "TF1-AIZA3012",
+    "MP": "89413",
+    "MI": "112181"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA3013",
+    "FL": "TF1 -40 -D301",
+    "EQ": "TF1-AIZA3013",
+    "MP": "89414",
+    "MI": "112182"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA3014",
+    "FL": "TF1 -40 -D301",
+    "EQ": "TF1-AIZA3014",
+    "MP": "89415",
+    "MI": "112183"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81101",
+    "FL": "TF1 -81 -81P001A",
+    "EQ": "TF1-AIZA81101",
+    "MP": "89416",
+    "MI": "112184"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81102",
+    "FL": "TF1 -81 -81P001B",
+    "EQ": "TF1-AIZA81102",
+    "MP": "89417",
+    "MI": "112185"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81103",
+    "FL": "TF1 -81 -81E001",
+    "EQ": "TF1-AIZA81103",
+    "MP": "89418",
+    "MI": "112186"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81104",
+    "FL": "TF1 -81 -81E002",
+    "EQ": "TF1-AIZA81104",
+    "MP": "89419",
+    "MI": "112187"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81105",
+    "FL": "TF1 -81 -81D001",
+    "EQ": "TF1-AIZA81105",
+    "MP": "89420",
+    "MI": "112188"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA81106",
+    "FL": "TF1 -81 -81P003A",
+    "EQ": "TF1-AIZA81106",
+    "MP": "89421",
+    "MI": "112749"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA452001",
+    "FL": "TF1 -45 -45E090",
+    "EQ": "TF1-AIZA452001",
+    "MP": "106380",
+    "MI": "132129"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA452002",
+    "FL": "TF1 -45 -45P090A",
+    "EQ": "TF1-AIZA452002",
+    "MP": "106381",
+    "MI": "132130"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA452003",
+    "FL": "TF1 -45 -45P090B",
+    "EQ": "TF1-AIZA452003",
+    "MP": "106382",
+    "MI": "132131"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA302",
+    "FL": "TF1 -40 -D302",
+    "EQ": "TF1-AIZA302",
+    "MP": "109226",
+    "MI": "135749"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA303",
+    "FL": "TF1 -40 -D303",
+    "EQ": "TF1-AIZA303",
+    "MP": "109227",
+    "MI": "135750"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA14601",
+    "FL": "TF1 -14 -QMI_GD",
+    "EQ": "TF1-AIZA14601",
+    "MP": "246831",
+    "MI": "278786"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA147001",
+    "FL": "TF1 -14 -QMI_GD",
+    "EQ": "TF1-AIZA147001",
+    "MP": "246832",
+    "MI": "278787"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA147002",
+    "FL": "TF1 -14 -QMI_GD",
+    "EQ": "TF1-AIZA147002",
+    "MP": "246833",
+    "MI": "278788"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA147003",
+    "FL": "TF1 -14 -QMI_GD",
+    "EQ": "TF1-AIZA147003",
+    "MP": "246834",
+    "MI": "278989"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA147004",
+    "FL": "TF1 -14 -QMI_GD",
+    "EQ": "TF1-AIZA147004",
+    "MP": "246835",
+    "MI": "278990"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38001",
+    "FL": "TF1 -38 -QMI_GD",
+    "EQ": "TF1-AIZA38001",
+    "MP": "246836",
+    "MI": "278991"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38002",
+    "FL": "TF1 -38 -QMI_GD",
+    "EQ": "TF1-AIZA38002",
+    "MP": "246837",
+    "MI": "278992"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38003",
+    "FL": "TF1 -38 -QMI_GD",
+    "EQ": "TF1-AIZA38003",
+    "MP": "246838",
+    "MI": "278993"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38004",
+    "FL": "TF1 -38 -38C002",
+    "EQ": "TF1-AIZA38004",
+    "MP": "246839",
+    "MI": "278994"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA38005",
+    "FL": "TF1 -38 -38C001",
+    "EQ": "TF1-AIZA38005",
+    "MP": "246840",
+    "MI": "278995"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GDT7700230",
+    "FL": "TF1 -77 -77T003B",
+    "EQ": "TF1-GDT7700230",
+    "MP": "246841",
+    "MI": "278996"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GDT7700231",
+    "FL": "TF1 -77 -QMI_GD",
+    "EQ": "TF1-GDT7700231",
+    "MP": "246842",
+    "MI": "278997"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GDT7700232",
+    "FL": "TF1 -77 -QMI_GD",
+    "EQ": "TF1-GDT7700232",
+    "MP": "246843",
+    "MI": "278998"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GDT7700233",
+    "FL": "TF1 -77 -77P018B",
+    "EQ": "TF1-GDT7700233",
+    "MP": "246844",
+    "MI": "278999"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GDT7700234",
+    "FL": "TF1 -77 -77P018A",
+    "EQ": "TF1-GDT7700234",
+    "MP": "246845",
+    "MI": "279000"
+   },
+   {
+    "Plant": "TF1",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AIZA2154",
+    "FL": "TF1 -21 -QMI_GD",
+    "EQ": "TF1-AIZA2154",
+    "MP": "247186",
+    "MI": "279325"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G01",
+    "FL": "LCP -W1 -QMI_GD",
+    "EQ": "LCP-AI0680G01",
+    "MP": "60156",
+    "MI": "61986"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699901",
+    "FL": "LCP -W1 -QMI_GD",
+    "EQ": "LCP-AEAI699901",
+    "MP": "60160",
+    "MI": "61990"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G03",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AI0680G03",
+    "MP": "60226",
+    "MI": "62056"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G04",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AI0680G04",
+    "MP": "60227",
+    "MI": "62057"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699902",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699902",
+    "MP": "60242",
+    "MI": "62072"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699903",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699903",
+    "MP": "60243",
+    "MI": "62073"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699904",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699904",
+    "MP": "60244",
+    "MI": "62074"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699912",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699912",
+    "MP": "60245",
+    "MI": "62075"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699913",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699913",
+    "MP": "60246",
+    "MI": "62076"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699905",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699905",
+    "MP": "60382",
+    "MI": "62212"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G05",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AI0680G05",
+    "MP": "60473",
+    "MI": "62303"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699906",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AEAI699906",
+    "MP": "60476",
+    "MI": "62306"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G06",
+    "FL": "LCP -W4 -QMI_GD",
+    "EQ": "LCP-AI0680G06",
+    "MP": "60523",
+    "MI": "62353"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699907",
+    "FL": "LCP -W4 -QMI_GD",
+    "EQ": "LCP-AEAI699907",
+    "MP": "60526",
+    "MI": "62356"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699908",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AEAI699908",
+    "MP": "60527",
+    "MI": "62357"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AI0680G07",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AI0680G07",
+    "MP": "60601",
+    "MI": "62431"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699909",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AEAI699909",
+    "MP": "60607",
+    "MI": "62437"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699925",
+    "FL": "LCP -W1 -QMI_GD",
+    "EQ": "LCP-AEAI699925",
+    "MP": "125708",
+    "MI": "154684"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699926",
+    "FL": "LCP -W1 -QMI_GD",
+    "EQ": "LCP-AEAI699926",
+    "MP": "125708",
+    "MI": "154685"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699927",
+    "FL": "LCP -W1 -QMI_GD",
+    "EQ": "LCP-AEAI699927",
+    "MP": "125708",
+    "MI": "154686"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699914",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699914",
+    "MP": "125708",
+    "MI": "154677"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699915",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699915",
+    "MP": "125708",
+    "MI": "154673"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699916",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699916",
+    "MP": "125708",
+    "MI": "154676"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699917",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699917",
+    "MP": "125708",
+    "MI": "154675"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699918",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699918",
+    "MP": "125708",
+    "MI": "154678"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699919",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699919",
+    "MP": "125708",
+    "MI": "154680"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699920",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699920",
+    "MP": "125708",
+    "MI": "154679"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699921",
+    "FL": "LCP -W2A-QMI_GD",
+    "EQ": "LCP-AEAI699921",
+    "MP": "125708",
+    "MI": "154674"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699922",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699922",
+    "MP": "125708",
+    "MI": "154683"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699923",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699923",
+    "MP": "125708",
+    "MI": "154682"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699924",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-AEAI699924",
+    "MP": "125708",
+    "MI": "154681"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699928",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AEAI699928",
+    "MP": "125708",
+    "MI": "154688"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699929",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AEAI699929",
+    "MP": "125708",
+    "MI": "154687"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699930",
+    "FL": "LCP -W4 -QMI_GD",
+    "EQ": "LCP-AEAI699930",
+    "MP": "125708",
+    "MI": "154770"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699931",
+    "FL": "LCP -W4 -QMI_GD",
+    "EQ": "LCP-AEAI699931",
+    "MP": "125708",
+    "MI": "154769"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699932",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AEAI699932",
+    "MP": "125708",
+    "MI": "154771"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699933",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AEAI699933",
+    "MP": "125708",
+    "MI": "154772"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AEAI699934",
+    "FL": "LCP -W5 -QMI_GD",
+    "EQ": "LCP-AEAI699934",
+    "MP": "125708",
+    "MI": "154773"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AT699001",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AT699001",
+    "MP": "247176",
+    "MI": "279319"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AT699002",
+    "FL": "LCP -W3A-QMI_GD",
+    "EQ": "LCP-AT699002",
+    "MP": "247178",
+    "MI": "279320"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AT699701",
+    "FL": "LCP -W3B-QMI_GD",
+    "EQ": "LCP-AT699701",
+    "MP": "247182",
+    "MI": "279323"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "AT699702",
+    "FL": "LCP -W3B-QMI_GD",
+    "EQ": "LCP-AT699702",
+    "MP": "247184",
+    "MI": "279324"
+   },
+   {
+    "Plant": "LCP",
+    "EquipmentType": "Gas DET",
+    "Tagnumber": "GD_SYSTEM",
+    "FL": "LCP -W2B-QMI_GD",
+    "EQ": "LCP-GD_SYSTEM"
+   }
+  ],
+  "Sheet2":[
+   {
+    "EQ Type": "Fire&Smoke DET"
+   },
+   {
+    "EQ Type": "Gas DET"
+   },
+   {
+    "EQ Type": "Deluge Valve"
+   },
+   {
+    "EQ Type": "EIV Valve(Fire Proof)"
+   },
+   {
+    "EQ Type": "Fire Water Pump"
+   }
+  ]
+  }
