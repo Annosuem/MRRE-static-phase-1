@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AppModule">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data MCC REDV RESR Utility </title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="ui-bootstrap-csp.css"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+    <script src="https://morgul.github.io/ui-bootstrap4/ui-bootstrap-tpls-3.0.6.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.6/ui-bootstrap-tpls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      var AppModule = angular.module("AppModule", ["ui.bootstrap"])
+      AppModule.controller("uhv", function ($scope, $http, $uibModal) {
+        $scope.showDetail = function (obj) {
+          var modalInstance = $uibModal.open({
+            animation: $scope.animationsEnabled,
+            templateUrl: "modal.html?_=" + new Date() + "",
+            controller: "heatex",
+            backdrop: "static",
+            keyboard: false,
+            size: "lg",
+            resolve: {
+              items: function () {
+                console.log("")
+                console.log(obj)
+                return obj
+              },
+            },
+          })
+
+          modalInstance.result.then(
+            function () {},
+            function (para) {
+              // para คือ ค่าส่งมาหลังจาก ปิดหน้าต่าง
+              console.log("para")
+              console.log(para)
+              if (para == "add") {
+                get_dashborad($scope, ServiceApp) // หลังจาก save แล้ว ให้ update
+              }
+            }
+          )
+        }
+
+        $http.get("mccrefinerydata.json").then(
+          function successCallback(response) {
+            $scope.codes = response.data
+            console.log("complex3 : ")
+            console.log(response.data)
+          },
+          function errorCallback(response) {
+            console.log("Unable to perform get request")
+          }
+        )
+      }).filter("myfilter", function () {
+        return function (x) {
+          var i,
+            c,
+            txt = ""
+          for (i = 0; i < x.length; i++) {
+            c = x[i]
+
+            c = c.toUpperCase()
+
+            txt += c
+          }
+          return txt
+        }
+      })
+      // modal dialog
+      AppModule.controller(
+        "mccrefinerydata.json",
+        function ($scope, $uibModalInstance, items) {
+          $scope.data = items // เก็บข้อมูลที่รับมาใน data เพื่อส่งไปใช้งานใน modal.html
+          console.log("complex3", items)
+        }
+      )
+    </script>
+  </head>
+
+  <body class="container">
+    <p id="demo"></p>
+    <script>
+      const d = new Date()
+      document.getElementById("demo").innerHTML = d
+    </script>
+
+    <nav style="text-align: center">
+      <img src="https://cdn.pixabay.com/photo/2017/02/15/20/25/switchgear-2069730_1280.jpg" alt="mcc_pic" width="400px" height="250px" />
+      <img src="https://cdn.pixabay.com/photo/2015/07/05/05/00/distribution-room-831956_1280.jpg" alt="heat2_pic" width="400px" height="250px" />
+    </nav>
+    <header class="header">
+      <div class="container">
+          <div class="Header_Area">
+              
+              <p><a href="menu.html" class="btn btn-primary my-2">Back to Menu</a></p>
+                 
+          </div>
+      </div>
+  </header>
+    <div ng-controller="uhv">
+      <h2
+        class="text-center text-white"
+        style="background-color: rgb(35, 104, 221)"
+      >
+        Complex 3 MCC Data
+
+        <span class="text-center text-warning">:READ REAN REDV RESR PWUT PWWT</span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-12">
+          <table class="table table-hover">
+            <thead>
+              <tr style="background-color: rgb(16, 233, 182)">
+                <th scope="col"></th>
+                <th scope="col">Plant</th>
+                <th scope="col">Substation</th>
+                <th scope="col">EQ.MCC Module</th>
+                <th scope="col">EQ_Description</th>
+                <th scope="col">Transformer</th>
+                <th scope="col">Interval</th>
+                <th scope="col">Last_PMModule</th>
+                <th scope="col">Last_Thermoscan</th>
+                <th scope="col" class="text-center">View Detail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background-color: rgb(212, 220, 220)">
+                <th scope="col"></th>
+                <th scope="col">
+                  <input
+                    ng-model="s.Plant"
+                    placeholder="ค้นหา Plant"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                    ng-model="s.Substation"
+                    placeholder="ค้นหา Substation"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                    ng-model="s.EQ_MCC_Module"
+                    placeholder="ค้นหา EqMCC Name"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                    ng-model="s.EQ_Description"
+                    placeholder="ค้นหา EqDescript. Name"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                    ng-model="s.Transformer"
+                    placeholder="ค้นหา TR"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                    ng-model="s.PMIntervalTime_PMModule"
+                    placeholder="ค้นหา Intervaltime"
+                    class="form-control input-md"
+                  />
+                </th>
+                <th scope="col">
+                  <input
+                  ng-model="s.LastPM_PMModule"
+                  placeholder="ค้นหา LastPM"
+                  class="form-control input-md"
+                />
+                </th>
+                <th scope="col">
+                  <input
+                  ng-model="s.LastPM_Thermoscan"
+                  placeholder="ค้นหา LastPM"
+                  class="form-control input-md"
+                />
+                </th>
+                
+                <th scope="col">
+                  <input
+                    ng-model="s.EQ_MCC_Module"
+                    placeholder="กดดูรายละเอียดปุ่มด้านล่าง"
+                    class="form-control input-md"
+                  />
+                </th>
+                
+              </tr>
+              <tr
+                class="font-weight-bolder"
+                ng-repeat=" r in  codes.complex3 | filter:s | limitTo: 50"
+              >
+              <td>{{ $index+1}}</td>  
+              <td class="text-left">{{ r.Plant}}</td>
+                <td class="text-left text-danger">{{ r.Substation}}</td>
+                <td class="text-left text-primary">{{ r.EQ_MCC_Module}}</td>
+                <td class="text-left text-primary">{{ r.EQ_Description}}</td>
+                <td class="text-left text-primary">{{ r.Transformer}}</td>
+                <td class="text-left text-primary">{{ r.PMIntervalTime_PMModule}}</td>
+                <td class="text-left text-primary">{{ r.LastPM_PMModule}}</td>
+                <td class="text-left text-primary">{{ r.LastPM_Thermoscan}}</td>
+                <td class="btn btn-sm btn-warning col-12">
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">{{ r.EQ_MCC_Module}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="text-left modal-body">
+        
+        <div><h6><p1 class="font-weight-bolder"> Plant : </p1><p2> {{r.Plant}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> Unit: </p1><p2> {{r.Unit}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> Substation : </p1><p2> {{r.Substation}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> MCCBrand : </p1><p2> {{r.MCCBrand}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> InstallationYear : </p1><p2> {{r.InstallationYear}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> Transformer : </p1><p2> {{r.Transformer}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> Incomingsource : </p1><p2> {{r.Incomingsource}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> FL_MCC_Name : </p1><p2> {{r.FL_MCC_Name}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> EQ_MCC_Module : </p1><p2> {{r.EQ_MCC_Module}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> EQ_Description : </p1><p2> {{r.EQ_Description}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> ClassABC : </p1><p2> {{r.ClassABC}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder"> PMIntervalTime_PMModule : </p1><p2> {{r.PMIntervalTime_PMModule}} </p2></h6></div>                        
+        <div><h6><p1 class="font-weight-bolder">LastPM_PMModule : </p1><p2> {{r.LastPM_PMModule}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">PMIntervalTime_ThermoScan : </p1><p2> {{r.PMIntervalTime_ThermoScan}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">LastPM_Thermoscan : </p1><p2> {{r.LastPM_Thermoscan}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">Frequency_of_Start_stop : </p1><p2> {{r.Frequency_of_Start_stop}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">Local_control_Switch : </p1><p2> {{r.Local_control_Switch}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">ACB_Brand : </p1><p2> {{r.ACB_Brand}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">ACB_Model : </p1><p2> {{r.ACB_Model}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">ACB_AT_AF : </p1><p2> {{r.ACB_AT_AF}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">ACB_Spare_part_Code : </p1><p2> {{r.ACB_Spare_part_Code}} </p2></h6></div>
+        <div><h6><p1 class="font-weight-bolder">MCCB_Brand : </p1><p2> {{r.MCCB_Brand}} </p2></h6></div>          
+        <div><h6><p1 class="font-weight-bolder">MCCB_Model : </p1><p2> {{r.MCCB_Model}} </p2></h6></div>          
+        <div><h6><p1 class="font-weight-bolder">MCCB_Spare_part_Code : </p1><p2> {{r.MCCB_Spare_part_Code}} </p2></h6></div>          
+        <div><h6><p1 class="font-weight-bolder">Overload_Relay_Brand : </p1><p2> {{r.Overload_Relay_Brand}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Overload_relay_Model : </p1><p2> {{r.Overload_relay_Model}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Overload_relay_Range : </p1><p2> {{r.Overload_relay_Range}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Overload_relay_Setting : </p1><p2> {{r.Overload_relay_Setting}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Overload_relay_Spare_part_Code : </p1><p2> {{r.Overload_relay_Spare_part_Code}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Magnetic_Contactor_Brand : </p1><p2> {{r.Magnetic_Contactor_Brand}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Magnetic_contactor_Model : </p1><p2> {{r.Magnetic_contactor_Model}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Magnetic_Contactor_KW : </p1><p2> {{r.Magnetic_Contactor_KW}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Magneti_Contactor_Spare_part_Code : </p1><p2> {{r.Magneti_Contactor_Spare_part_Code}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Main_Power_Cable_Size : </p1><p2> {{r.Main_Power_Cable_Size}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Load_Type_Motor_KW : </p1><p2> {{r.Load_Type_Motor_KW}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Load_Type_Motor_Amp : </p1><p2> {{r.Load_Type_Motor_Amp}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Load_Type_Feeder_Amp : </p1><p2> {{r.Load_Type_Feeder_Amp}} </p2></h6></div>   
+        <div><h6><p1 class="font-weight-bolder">Load_Type_Cap_Kvar : </p1><p2> {{r.Load_Type_Cap_Kvar}} </p2></h6></div>          
+       
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
